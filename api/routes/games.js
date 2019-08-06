@@ -11,6 +11,7 @@ const router = express.Router();
 
 const PLAYERS_TABLE = process.env.PLAYERS_TABLE;
 const GAMES_TABLE = process.env.GAMES_TABLE;
+const GAME_PATH_PREFIX = process.env.GAME_PATH_PREFIX;
 
 // 
 // games
@@ -31,8 +32,19 @@ router.get('/', function(req, res, next){
             });
             return;
         }
-        let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
-        res.json(utils.attrsToObject(fixAttr, data.Items));
+
+        let gamesData = _.get(data, 'Items');
+        if (gamesData.length > 0) {
+            let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
+            let games = utils.attrsToObject(fixAttr, gamesData);
+            let out = {
+                count: games.length,
+                games: games,
+            }
+            res.json(out);
+        } else {
+            res.json({message: "There are no games."})
+        }
     });
 });
 
@@ -88,7 +100,7 @@ router.post('/', utils.formHandler, function(req, res, next){
 
         res.json({
             message: 'Successfully added game',
-            path: '/' + gameId
+            path: `${GAME_PATH_PREFIX}/${gameId}`
         });
         return;
     });
@@ -122,9 +134,13 @@ router.get('/:id', function(req, res, next){
             });
         }
 
-        let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
-        console.log(data)
-        res.json(utils.attrsToObject(fixAttr, data.Item));
+        let gamesData = _.get(data, 'Item');
+        if (gamesData.length > 0) {
+            let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
+            res.json(utils.attrsToObject(fixAttr, gamesData));
+        } else {
+            res.json({message: 'This game does not exist.'});
+        }
     });
 });
 

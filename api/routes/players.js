@@ -9,6 +9,7 @@ const utils = require('../lib/utils');
 const router = express.Router();
 
 const GAME_PATH_PREFIX = process.env.GAME_PATH_PREFIX;
+const PLAYER_PATH_PREFIX = process.env.PLAYER_PATH_PREFIX;
 const PLAYERS_TABLE = process.env.PLAYERS_TABLE;
 const GAMES_TABLE = process.env.GAMES_TABLE;
 
@@ -33,7 +34,15 @@ router.get('/', function(req, res, next){
             });
         }
 
-        res.json(data.Items);
+        let playersData = _.get(data, 'Items');
+        if (playersData.length > 0) {
+            let out = {
+                players: playersData,
+            }
+            res.json(out);
+        } else {
+            res.json({message: 'There are no players.'});
+        }
     });
 });
 
@@ -62,7 +71,16 @@ router.get('/:id', function(req, res, next){
             });
         }
 
-        res.json(data.Item);
+        let playersData = _.get(data, 'Item');
+        if (playersData.length > 0) {
+            let out = {
+                count: playersData.length,
+                player: playersData,
+            }
+            res.json(out);
+        } else {
+            res.json({message: 'This player does not exist.'});
+        }
     });
 });
 
@@ -94,10 +112,18 @@ router.get('/:id' + GAME_PATH_PREFIX, async function(req, res, next){
 
     Promise.all([homeGamesPromise, awayGamesPromise]).then(function(values){
         games = values[0].Items.concat(values[1].Items);
-        games = _.orderBy(games, ['created_at']); // sort by most recent games
+        games = _.orderBy(games, ['created_at'], ['desc']); // sort by most recent games
 
         let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
-        res.json(utils.attrsToObject(fixAttr, games));
+        games = utils.attrsToObject(fixAttr, games);
+        let limit = _.get(req.query, 'limit', games.length);
+        games.length = limit;
+        let out = {
+            count: games.length,
+            games: games
+        }
+
+        res.json(out);
     }).catch(function(error){
         console.error('There was an error getting games for this player', error)
         res.status(400).json({
@@ -105,7 +131,6 @@ router.get('/:id' + GAME_PATH_PREFIX, async function(req, res, next){
             message: error.message
         });
     });
-
 }); 
 
 // add a player
@@ -148,7 +173,7 @@ router.post('/', utils.formHandler, function(req, res, next){
 
             res.json({
                 message: 'Successfully added player ' + playerId,
-                path: '/' + playerId
+                path: `${PLAYER_PATH_PREFIX}/${playerId}`
             });
         });
         return;
