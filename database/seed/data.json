@@ -1,0 +1,4292 @@
+[
+    {
+        "id": "aea28fdd-3743-48c4-b684-b1d2a3342d5f",
+        "teamName": "Aldosivi",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "1fe3df07-20c5-406a-aa0d-249e0db1551e",
+        "teamName": "Argentinos Jrs.",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "9af9e785-64a2-4b14-8724-9ec0ee9b939a",
+        "teamName": "Atlético Tucumán",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "8e64cc23-f1a4-4429-9a40-8b2b099f0d69",
+        "teamName": "Banfield",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "0848b8bd-63f0-4bda-a4cc-9c1601eb09a4",
+        "teamName": "Belgrano",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "aa903192-e45e-4a7e-a061-ceef929663c0",
+        "teamName": "Buenos Aires **",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "c06c382f-8a8c-41ab-a62a-e548dcc99d1c",
+        "teamName": "Colón",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "05aba346-f911-4e2e-ab62-9d03c30b3d19",
+        "teamName": "Defensa",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "e4ddc463-5313-4758-b761-5e037a965b44",
+        "teamName": "Estudiantes",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "6f3b7f32-c1e5-42e4-82c1-29b50d25b059",
+        "teamName": "Gimnasia",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "275fd5fe-5fab-47d2-b2fc-8bf7f685ab6c",
+        "teamName": "Godoy Cruz",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "423d494d-f366-4981-8e42-1b68a74003ea",
+        "teamName": "Huracán",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "1b3dba3f-a3e5-4cab-a95c-60d4f7d3db8c",
+        "teamName": "Independiente",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "b52151f4-6ed5-4692-acec-66ca8a89a0a4",
+        "teamName": "Lanús",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "3e16d9b1-a348-495d-be68-bdbfbcbdfb4e",
+        "teamName": "Newell's",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "6d7978f6-042d-41bd-8850-f3a81f7dc527",
+        "teamName": "Patronato",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "8aad2725-72dc-4f82-a895-b04fed53f8ff",
+        "teamName": "Racing Club",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "50706c79-880e-4a22-bb19-9f79c75e2383",
+        "teamName": "River Plate",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "f4e2d8ca-0781-4959-9e41-94f718cdeb4e",
+        "teamName": "Rosario Central",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "485e4aa4-9378-4496-9355-718664e3c3bc",
+        "teamName": "San Lorenzo",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "36cd2724-b2b7-4b9a-9619-00e454c4aea4",
+        "teamName": "San Martín",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "7acd707e-4643-40ee-a1f1-418a222e6924",
+        "teamName": "SM Tucumán",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "1d471d00-1c51-444c-ae70-7ef157e905a8",
+        "teamName": "Talleres",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "00717e32-62f8-4015-948c-bfcffaecc3ce",
+        "teamName": "Tigre",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "cebcb835-7a9d-4128-a8e8-df6f0050f706",
+        "teamName": "Unión",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "cf982cb5-2db1-410e-9feb-58509834bf10",
+        "teamName": "Vélez Sarsfield",
+        "country": "ARGENTINA",
+        "league": "SAF"
+    },
+    {
+        "id": "2a7c547f-d24d-4250-9cdc-b0d9bb876938",
+        "teamName": "Adelaide United",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "a326de9e-a619-44cd-8fcd-7b51af803a54",
+        "teamName": "Brisbane Roar",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "20a4654c-f4b9-444f-9f14-4384866ba89b",
+        "teamName": "Central Coast",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "d751e688-a982-4907-acf2-0405abdad315",
+        "teamName": "Melb. Victory",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "8957d671-0659-450c-b734-185e13ae544f",
+        "teamName": "Melbourne City",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "e04be393-e325-4628-9d7b-6f16f033f93c",
+        "teamName": "Newcastle Jets",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "eca58803-4788-4588-b732-d0f6532d85fa",
+        "teamName": "Perth Glory",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "f5d27f14-a68e-4577-b434-f12c6e892725",
+        "teamName": "Sydney FC",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "94a42fc7-7544-4351-9d1a-757664bb3294",
+        "teamName": "Well. Phoenix",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "3df186da-abb7-4511-a974-5bc743957b68",
+        "teamName": "WS Wanderers",
+        "country": "AUSTRALIA",
+        "league": "HYUNDAI A-LEAGUE"
+    },
+    {
+        "id": "3a47ed8d-b581-46c2-b4ac-edef09aded23",
+        "teamName": "Admira Wacker",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "39261135-0606-4e2b-a120-9baefdcc7322",
+        "teamName": "FK Austria Wien",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "84259503-c42a-487e-b7dc-3cb370110893",
+        "teamName": "Innsbruck",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "d9536b07-2a88-439a-b9ec-3f1743670214",
+        "teamName": "LASK Linz",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "2c650445-b686-45bc-8a9f-c02817ab3a99",
+        "teamName": "RB Salzburg",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "e29ef886-0f87-40c3-aca2-bb714e5df638",
+        "teamName": "SCR Altach",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "a3d7f153-5398-429b-b976-d14c5421fafb",
+        "teamName": "SK Rapid Wien",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "19b5ec85-c597-4ed1-bbf2-4301e6df77bb",
+        "teamName": "SK Sturm Graz",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "850dfc10-c9d9-43c4-916b-82e80101a9ac",
+        "teamName": "SKN St. Pölten",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "8d06e3ab-10eb-4e0c-ae37-a67dfe657eb8",
+        "teamName": "SV Mattersburg",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "b89b6ee1-5d22-40c7-b1eb-39d31306fa12",
+        "teamName": "TSV Hartberg",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "fdbc6996-85c1-4f3f-a06c-1c50772ffe72",
+        "teamName": "Wolfsberger AC",
+        "country": "AUSTRIA",
+        "league": "Ö. BUNDESLIGA"
+    },
+    {
+        "id": "02dfd373-bf91-4db1-ba3c-75aad27c65b4",
+        "teamName": "Cercle Brugge",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "def15468-eb21-4559-93a8-4b3bb717067c",
+        "teamName": "Club Brugge",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "8d8cc4d4-9a33-4123-8e67-e662e9945e74",
+        "teamName": "Excel Mouscron",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "349f3e39-766a-45cb-aa97-30aad391478d",
+        "teamName": "KAA Gent",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "23da7e04-07be-4f1b-9d1d-a09d786968ec",
+        "teamName": "KAS Eupen",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "5d3422da-9d48-4b12-80d6-3e602ba63ab4",
+        "teamName": "KRC Genk",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "4bba4e52-0717-471b-bab1-b6bbcc1ddc9d",
+        "teamName": "KV Kortrijk",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "6b04febd-46e5-476c-9fd2-2b0cf34ca8c2",
+        "teamName": "KV Oostende",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "98f2ae36-fc0e-496a-acae-81ad0c83796f",
+        "teamName": "Royal Antwerp FC",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "2351fe10-ca29-48b7-89c0-0eac9623d1bb",
+        "teamName": "RSC Anderlecht",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "3d30edfc-2999-421a-95d9-8b1e48e6bb29",
+        "teamName": "Sint-Truiden",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "d712cc2b-2a1f-42a2-9dd7-f9bb869f3f55",
+        "teamName": "Sp. Charleroi",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "96e3d775-edd6-43d9-918c-f3ce53c10347",
+        "teamName": "Sport. Lokeren",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "77f959ae-ffd7-4684-8949-7aca670960ad",
+        "teamName": "Standard Liège",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "8b459607-318d-446c-bc38-bee1a4a7373a",
+        "teamName": "Waasl. Beveren",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "c3986bb7-17ee-453c-8e04-16963fed6bd4",
+        "teamName": "Zulte-Waregem",
+        "country": "BELGIUM",
+        "league": "PRO LEAGUE"
+    },
+    {
+        "id": "999f77b9-74fc-4fc2-9564-7ba9dbb4ded8",
+        "teamName": "América",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "a304300c-d2ba-47c2-b9dd-3a5d8a4d21fc",
+        "teamName": "Atl. Paranaense",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "619b5b47-6224-42df-bde1-d045a84222e4",
+        "teamName": "Atlético Mineiro",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "91e60562-7fe9-4a11-ae7a-16bbae3e7ba4",
+        "teamName": "Bahia",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "cb4f972d-fdca-4d12-8089-e7baecec8e21",
+        "teamName": "Botafogo",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "e885f181-dba2-4d00-8ba0-03e94c54299e",
+        "teamName": "Ceará SC",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "079fc92a-846f-4d10-bb1f-87995ca27912",
+        "teamName": "Chapecoense",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "96cae972-4a5f-445f-8996-da41b05d0f4c",
+        "teamName": "Cruzeiro",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "c2c8836b-3dce-4982-a2ab-bb02be9f85eb",
+        "teamName": "Fluminense",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "bb556361-713a-4a91-8fa5-07633d12b5d9",
+        "teamName": "Grêmio",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "ddb993d2-f226-45c4-afdc-cff9246a54f0",
+        "teamName": "Internacional",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "a11f79bf-db6a-414b-8de9-6ffe8ffa8a46",
+        "teamName": "Paraná",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "245671c5-198d-45ae-a091-ed0da265c80e",
+        "teamName": "Santos",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "02b9d545-da73-4e1c-a7ed-5fc3e6fa04ce",
+        "teamName": "Sport",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "d44a8bc8-febd-4296-8a96-5c2dfb35c10f",
+        "teamName": "Vitória",
+        "country": "BRAZIL",
+        "league": "LIGA DO BRASIL"
+    },
+    {
+        "id": "070834e3-51d1-440a-a75b-74b8051f0d38",
+        "teamName": "Audax Italiano",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "da7dca81-0927-4804-a432-d8cd39597420",
+        "teamName": "CD Antofagasta",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "19e2443c-6468-45e2-8756-fd336d821409",
+        "teamName": "CD Huachipato",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "94d58ef5-714e-43a1-b759-3ee4520039a5",
+        "teamName": "CD O'Higgins",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "eae20f7c-b848-4b9b-8874-035ecf521922",
+        "teamName": "CD Palestino",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "fd030552-fa28-4a0b-b5b6-72103a026d44",
+        "teamName": "CD Viñazur **",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "cd4f93b4-881c-43ec-85d4-e00ec3fe7ed1",
+        "teamName": "Curicó Unido",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "ce12672a-2c26-4d62-a9bc-dd5a3523271c",
+        "teamName": "Depor. Iquique",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "e01e966f-3e25-498c-a8af-748dba8c3f59",
+        "teamName": "Deportes Temuco",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "096237d0-c9d8-4c4c-81dd-31f5a00960ad",
+        "teamName": "Everton de Viña",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "9d29c51d-2635-4087-a28e-7daea274978d",
+        "teamName": "San Luis",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "7525b634-3703-456f-bd0e-c2503599c34f",
+        "teamName": "Uni. Católica",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "2f6f2bfa-2626-450a-8f6d-32e1dafd895a",
+        "teamName": "Uni. Concepción",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "d0bffcef-ba37-457c-8869-798eb3d6d8bd",
+        "teamName": "Uni. de Chile",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "67fb361c-fb7d-4357-87af-056062673255",
+        "teamName": "Unión Española",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "20d9ccc0-404d-45c4-ac3a-06f3da7a9fd3",
+        "teamName": "Unión La Calera",
+        "country": "CHILE",
+        "league": "CAMP. SCOTIABANK"
+    },
+    {
+        "id": "d916c581-0a2f-4017-9a57-a3a9a82e939f",
+        "teamName": "Beijing Guoan",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "59bc7766-8789-4af4-b222-f9842579311c",
+        "teamName": "Beijing Renhe",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "e34a8db6-b6bd-48af-a765-64eb3d85ec02",
+        "teamName": "Changchun Yatai",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "5b24c6a1-6d1a-4821-8f83-9de33af4f4a1",
+        "teamName": "Chongqing SWM",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "7a023053-ca23-4f09-bb3d-74ef3acccc22",
+        "teamName": "Dalian Yifang",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "8f688777-68ea-4c13-a6a7-edfb6e4a8c30",
+        "teamName": "Guangzhou",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "12a0d4f6-7e31-40b4-86ba-fa4d4c7d0d77",
+        "teamName": "Guangzhou R&F",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "f3ddcc47-909c-4f46-ab3c-3f9b3c80ef9f",
+        "teamName": "Guizhou Hengfeng",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "edfe3faa-d822-4caa-9626-a7bcb7f7c181",
+        "teamName": "Hebei CFFC",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "91927932-6386-403b-8bcd-0bfa13706b7b",
+        "teamName": "Henan Jianye",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "d93a3cb2-273a-4451-b922-bed800765ee9",
+        "teamName": "Jiangsu Suning",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "f3b437c0-2995-4799-9368-467ba4eb2cc6",
+        "teamName": "Shandong Luneng",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "b83b1ce5-7141-4e4c-a59a-2df715583730",
+        "teamName": "Shanghai Shenhua",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "605cc6b7-48b7-4d7a-a64c-db7b50e1824c",
+        "teamName": "Shanghai SIPG",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "cd2a044d-76a0-43cb-85ea-23f34dc50254",
+        "teamName": "Tianjin Quanjian",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "d86f48e8-7cb1-4dcf-9e14-5ef00429912e",
+        "teamName": "Tianjin TEDA",
+        "country": "CHINA",
+        "league": "CSL"
+    },
+    {
+        "id": "53e27878-11c2-4dea-80ae-bfbe5031420d",
+        "teamName": "Al. Petrolera",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "ebdbabef-fbd4-43f6-96e1-f096dffdf7f6",
+        "teamName": "América de Cali",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "ed331d40-5fb0-48fe-9e9e-bccc419757fe",
+        "teamName": "Atl. Bucaramanga",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "5e690cb6-136d-431a-b14e-528fc41a8c54",
+        "teamName": "Atl. Nacional",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "c0eee2c7-7327-421e-874c-0f7b999fe151",
+        "teamName": "Atlético Huila",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "d2344ce6-c9b5-4293-aa05-638c4e46c9df",
+        "teamName": "Boyacá Chicó",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "537bfdc4-a9e8-417b-b906-9799f22d8b18",
+        "teamName": "Deportes Tolima",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "abbde99a-3673-42d3-9561-d0b7bc3f580f",
+        "teamName": "Deportivo Cali",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "46c22986-f31e-4571-9d9d-94f0f14a1a54",
+        "teamName": "Deportivo Pasto",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "6be6475f-5d4b-4bbf-956c-b11a7c195295",
+        "teamName": "Envigado",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "1d521abd-5005-4312-a245-4079e9fe95cc",
+        "teamName": "Ind. Santa Fe",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "beb5db1f-71bb-412f-b753-2c1af9db9f8d",
+        "teamName": "Indep. Medellín",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "7b795846-b52c-4dee-8969-0bdbc5d56724",
+        "teamName": "Jaguares",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "f1b9c5c2-5c7e-41c3-943d-8a00dd13ed05",
+        "teamName": "Junior",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "42ba3d2d-7953-4aa2-884f-2abb8d925be8",
+        "teamName": "La Equidad",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "f1d86668-3fb9-42c4-a001-2b89ad2f27f3",
+        "teamName": "Leones",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "3f9d8d8f-f9f0-4f4c-b4db-ffd4e703f0df",
+        "teamName": "Millonarios",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "e675f5d5-71d3-41ed-9a01-2be262984818",
+        "teamName": "Once Caldas",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "c1a8c0d9-d267-4ea1-a9bb-3a92b449e60e",
+        "teamName": "Patriotas",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "a124a736-7e3d-40dc-b7dc-ea7b57ca0703",
+        "teamName": "Rionegro Águilas",
+        "country": "COLOMBIA",
+        "league": "LIGA DIMAYOR"
+    },
+    {
+        "id": "3e57e931-028c-414e-9bc2-6e2110d64d9e",
+        "teamName": "Aalborg BK",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "ee42117e-31aa-4d77-a44b-5291f2a67336",
+        "teamName": "Aarhus GF",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "ea1ad46a-d680-4cd8-9d68-7209ae3f2c23",
+        "teamName": "AC Horsens",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "27f00981-ddc2-43ab-88f3-864426f059ad",
+        "teamName": "Brøndby IF",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "c7c08f14-edcb-44d1-8024-c4feea0886f7",
+        "teamName": "Esbjerg fB",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "8b40507e-03eb-4b6e-9e7d-6a5df487c65c",
+        "teamName": "FC København",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "29158513-87fc-4034-94b8-4699aa448480",
+        "teamName": "FC Midtjylland",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "815fd7a0-bd98-4f5c-b6ea-d71c9d0fa2d8",
+        "teamName": "FC Nordsjælland",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "fe558850-4950-4429-9457-2aba39049e74",
+        "teamName": "Hobro IK",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "3cf8f66b-2a4c-43e1-a5c8-477973d5414d",
+        "teamName": "Odense BK",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "7abbbcf0-3349-441b-bd4d-1968395a7d2a",
+        "teamName": "Randers FC",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "ace16a6c-3941-4cc4-9a37-5f3cdb016024",
+        "teamName": "SønderjyskE",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "f399cd47-ece0-4156-97bb-91d6ab6347bc",
+        "teamName": "Vejle Boldklub",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "b1d6e420-7de1-4d19-8789-1f406fcd3ca8",
+        "teamName": "Vendsyssel FF",
+        "country": "DENMARK",
+        "league": "SUPERLIGA"
+    },
+    {
+        "id": "0649fab9-a86e-4148-8eb6-5137f026e86d",
+        "teamName": "Arsenal",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "991ee095-13f1-4b74-a475-af3cb0f34a28",
+        "teamName": "Bournemouth",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "8cc1299b-6206-47c3-ad3c-0a6b265db6b5",
+        "teamName": "Brighton",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "0df2b9ed-0910-4a3f-bbef-badd998b6cc3",
+        "teamName": "Burnley",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "4c2b24ee-b7a6-4c0c-a97b-430cb04ff7e6",
+        "teamName": "Cardiff City",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "150f1755-bd8e-4fa9-bc15-eaae2ab67a1a",
+        "teamName": "Chelsea",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "4e946f8e-2bfc-4291-bec0-e4b63fac44dc",
+        "teamName": "Crystal Palace",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "17a11453-6d6c-4d0b-a9ad-687824618159",
+        "teamName": "Everton",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "881c8010-5acc-4f7e-8d50-c65ba775e908",
+        "teamName": "Fulham",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "e9267ebd-7247-4364-a8cc-06e30a6cdc15",
+        "teamName": "Huddersfield",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "9f5d4510-9685-43ba-9265-4a9aade8f7ab",
+        "teamName": "Leicester City",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "37a88cb9-4637-473b-827f-86a8eb0c7da7",
+        "teamName": "Liverpool",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "1c14f961-fcda-47a5-9e46-2b8916ad6574",
+        "teamName": "Manchester City",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "7a7c3470-0978-4153-b6f9-2882990cc223",
+        "teamName": "Manchester Utd",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "2d6474ef-681a-48d0-a920-dd202b1b297f",
+        "teamName": "Newcastle Utd",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "716898b6-588b-43a8-a467-fb277d53fe84",
+        "teamName": "Southampton",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "d23d9714-44c7-4a79-aba2-32a845416cfb",
+        "teamName": "Spurs",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "06fa06ef-770f-4cda-b47e-394b89c5e436",
+        "teamName": "Watford",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "5f079f95-82fe-4053-8a3a-14aa48508c0f",
+        "teamName": "West Ham",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "f9e45598-486a-4bf3-b2a1-9ae598e37e7a",
+        "teamName": "Wolves",
+        "country": "ENGLAND",
+        "league": "PREMIER LEAGUE"
+    },
+    {
+        "id": "bd26fca3-44f1-48e3-a887-953d7982482f",
+        "teamName": "Aston Villa",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "23c4df62-6271-4c44-9b6d-0fe351e4a523",
+        "teamName": "Birmingham City",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "ffd64433-d5ba-4aa1-ba09-7c2a049e48b7",
+        "teamName": "Blackburn Rovers",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "a9a13691-4eec-43cd-a1d1-2d22248aec04",
+        "teamName": "Bolton",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "2ab3f59e-7e79-4fbd-b428-04126776f6d1",
+        "teamName": "Brentford",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "3abb7bf1-d9bd-4a0e-9f7a-bf64f7396429",
+        "teamName": "Bristol City",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "014e13c9-4783-411d-aaed-d385e260bf21",
+        "teamName": "Derby County",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "464d51df-6fef-4f63-a7a3-dee30ca326e5",
+        "teamName": "Hull City",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "3e28b2ac-a095-47e4-a663-befad7bcf40c",
+        "teamName": "Ipswich",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "9fe20cc5-6cca-48ec-ad24-46d39cca070c",
+        "teamName": "Leeds United",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "a643a0b5-316f-4d72-83aa-9a336defcf0c",
+        "teamName": "Middlesbrough",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "2ae2439d-6793-462c-9a6d-6249720d5c59",
+        "teamName": "Millwall",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "b41386e7-10c9-46a4-872f-bb4eaeaff73f",
+        "teamName": "Norwich",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "6c526b0b-7e2a-4157-9abc-40ac4165dd97",
+        "teamName": "Nott'm Forest",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "862598cd-0bd9-434c-916d-7bdca2125d43",
+        "teamName": "Preston",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "3c5bd018-f67e-40db-a68a-2adb41d0182e",
+        "teamName": "QPR",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "eef73bfc-c029-4b55-a43a-55895edd0a77",
+        "teamName": "Reading",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "ac88e4a2-e68e-48ba-ae58-8ea368e8e5d4",
+        "teamName": "Rotherham Utd",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "251bf859-0c30-4788-a6ba-e419aa4fac08",
+        "teamName": "Sheffield Utd",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "62250c39-79c7-46b0-b90d-e6626e4f8af6",
+        "teamName": "Sheffield Wed",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "3179083f-be5c-4206-97c3-654c7ed6d78c",
+        "teamName": "Stoke City",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "8c0966d8-3c9a-4ca4-ba52-c80113cf407b",
+        "teamName": "Swansea City",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "e859fa6a-1817-4cde-bf32-e40c4a0a6139",
+        "teamName": "West Brom",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "9618e28c-55cc-4ba0-bf3d-b23214bc82d5",
+        "teamName": "Wigan Athletic",
+        "country": "ENGLAND",
+        "league": "EFL CHAMPIONSHIP"
+    },
+    {
+        "id": "a4162fc2-fa17-4aa7-87d1-a85f68555243",
+        "teamName": "Accrington",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "e80a2cd4-ab7b-41e5-9b5c-d852c0ad6fba",
+        "teamName": "AFC Wimbledon",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "610955b7-3604-4ba5-bda5-de010f3c4672",
+        "teamName": "Barnsley",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "34ff6278-d1ef-4743-b342-1d3f62ee5ac2",
+        "teamName": "Blackpool",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "bf339957-b9ec-469a-b065-fda8e0400fe4",
+        "teamName": "Bradford City",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "3ff0b2e4-18e7-4a33-bc41-2caefcc2c137",
+        "teamName": "Bristol Rovers",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "4098c33c-4826-4c1f-a232-343488500684",
+        "teamName": "Burton Albion",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "d4af739f-ed6a-4842-8e16-17762171d287",
+        "teamName": "Charlton Ath",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "25589007-9a4a-4071-935b-8827b128861e",
+        "teamName": "Coventry City",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "75cd1870-bdea-4f77-8d74-b20319660074",
+        "teamName": "Doncaster",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "af2459f1-b107-4590-ae89-9c9a342dd732",
+        "teamName": "Fleetwood Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "fa04c3e3-c3ef-4f28-b0cf-82d937595564",
+        "teamName": "Gillingham",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "3996a79b-483c-4993-a85d-3d743bec5ecb",
+        "teamName": "Luton Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "e450d081-9fd9-41d2-b520-2075232ff1b9",
+        "teamName": "Oxford United",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "544789a9-9d5c-423c-b1bc-c59879a3cf1c",
+        "teamName": "Peterborough",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "aea977ea-112a-49e1-84d6-5f1efdf29ed6",
+        "teamName": "Plymouth Argyle",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "5cc40dae-07c2-4272-9792-db3fd4ccb7bf",
+        "teamName": "Portsmouth",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "3001c163-9b7a-4667-9946-794d0fd2e642",
+        "teamName": "Rochdale",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "a464427b-b4e1-4f9d-86b1-44207d809ba0",
+        "teamName": "Scunthorpe Utd",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "248dbca9-6368-485f-8fdc-a5614caf6d8b",
+        "teamName": "Shrewsbury",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "a1cdf688-79c4-4485-b280-6ecc9f4a2198",
+        "teamName": "Southend United",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "dc71f85a-c0dc-4fb0-970b-599f48951c27",
+        "teamName": "Sunderland",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "1d0f9911-4306-4700-a192-b909ef17cdc9",
+        "teamName": "Walsall",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "600aba29-0fbf-4b02-acc9-09a91beb865e",
+        "teamName": "Wycombe",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE ONE"
+    },
+    {
+        "id": "41f831f0-c7cb-4610-b08d-af34db79920b",
+        "teamName": "Bury",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "df5952ec-3c84-423a-bc98-13de16b4c2bd",
+        "teamName": "Cambridge Utd",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "bb704acc-8ad3-404f-ae34-ec3dd51a5b1d",
+        "teamName": "Carlisle United",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "ad76c1cb-1c7b-47d9-87fa-01ca6586e54b",
+        "teamName": "Cheltenham Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "375d0127-0aff-4228-ae2a-be0b5c34f085",
+        "teamName": "Colchester",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "96f850ea-e591-4957-8d7a-7b8e6f1cec7f",
+        "teamName": "Crawley Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "bddd99b2-4cb1-4f12-bbad-2dc45676bd70",
+        "teamName": "Crewe Alexandra",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "bdca6c19-aa6f-4ef9-8053-9fa8846787ec",
+        "teamName": "Exeter City",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "dca264eb-4689-4878-b743-fabedf584dfe",
+        "teamName": "Forest Green",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "81ac3a0d-a5e8-47fa-a440-9db0d24b98aa",
+        "teamName": "Grimsby Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "411b6714-7af7-4c8f-a6ea-80bfdf5744ad",
+        "teamName": "Lincoln City",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "60c3bac9-c035-4d06-a69f-e58058bd8c33",
+        "teamName": "Macclesfield",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "1448ae30-da7a-43be-955e-326a4afe3e97",
+        "teamName": "Mansfield Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "2914dff1-f53a-46d9-a802-2a323a199edc",
+        "teamName": "MK Dons",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "4a42baa5-5b6d-48a0-9150-bd5e0f1c2362",
+        "teamName": "Morecambe",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "b173c77b-100f-4762-8577-b9293c916dc8",
+        "teamName": "Newport County",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "f1e4429d-a309-4578-8bf6-8ade11111b21",
+        "teamName": "Northampton",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "f0aed709-0b55-4ab4-ae7f-46a80e69f4b9",
+        "teamName": "Notts County",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "ad9a5ecd-ce1e-44e8-b8d1-292f163dd656",
+        "teamName": "Oldham Athletic",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "b7169cc1-c25c-4d23-8f8a-5cf73b81a250",
+        "teamName": "Port Vale",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "3c84e9db-c04e-4b57-9a09-81a9010ebc73",
+        "teamName": "Stevenage",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "ef8ae4ea-a17b-4753-9d95-3072da234707",
+        "teamName": "Swindon Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "82636b51-2823-4eed-b487-19ccb8d3c1a9",
+        "teamName": "Tranmere Rovers",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "83012c6e-8be2-41ca-89dc-4f789af58ac9",
+        "teamName": "Yeovil Town",
+        "country": "ENGLAND",
+        "league": "EFL LEAGUE TWO"
+    },
+    {
+        "id": "9c57d840-2324-41fe-a933-3a23a3833bb2",
+        "teamName": "Amiens SC",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "c4dac911-520b-49b8-96f2-df6cf7aa4db4",
+        "teamName": "Angers SCO",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "6e5cc2af-5e48-477d-85cd-406d3b61ba1d",
+        "teamName": "AS Monaco",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "5983cbc3-d0a4-403a-999d-b186fa92e315",
+        "teamName": "ASSE",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "8bc2a7c2-3c0a-415a-acd1-5b83ab1bbd56",
+        "teamName": "Dijon FCO",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "9d1123ea-982e-41d1-8772-61b00ebba1fc",
+        "teamName": "EA Guingamp",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "e163d6d2-1051-496b-a356-be0e592ef24f",
+        "teamName": "FC Nantes",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "fa39db24-8b5c-4657-8d52-6faac965c3b5",
+        "teamName": "Girondins de Bx",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "d291e6c8-c947-4349-8b81-7e2a12c1a210",
+        "teamName": "LOSC Lille",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "bb2ec5e3-3ce4-4c85-b20f-1214679b848a",
+        "teamName": "Montpellier HSC",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "774b24ac-4768-47f5-835c-a5c9ec7f24db",
+        "teamName": "Nîmes Olympique",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "d27ef9e0-3572-41fd-92f4-7a8043b8525d",
+        "teamName": "OGC Nice",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "5511938c-e145-4b46-867f-cb2e8891d97b",
+        "teamName": "OL",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "6b2563af-b427-43bb-88e7-6c2b3b6d148d",
+        "teamName": "OM",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "0dcf81c7-5885-4c21-ab00-d4b4c3e89512",
+        "teamName": "Paris",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "4f467786-1d5b-49ce-8a89-5d9f6b7db5e6",
+        "teamName": "RC Strasbourg",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "12ca0bba-ce6d-42ef-9212-2ec73411fd7e",
+        "teamName": "SM Caen",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "aa8b3772-360a-4094-8b9e-03ca7750a86e",
+        "teamName": "Stade de Reims",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "6d9b40d1-1daa-4ac2-b92d-71d8f47a361d",
+        "teamName": "Stade Rennais",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "f1e9ef50-3c50-4760-b7c2-823386a9af44",
+        "teamName": "Toulouse FC",
+        "country": "FRANCE",
+        "league": "LIGUE 1 CONFORAMA"
+    },
+    {
+        "id": "dd76963d-aa01-444b-adf7-319694ecc101",
+        "teamName": "AC Ajaccio",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "e5c24468-492a-4197-a5eb-6dc469c3102b",
+        "teamName": "AJ Auxerre",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "a3411161-48a2-4072-832b-a74b86fa3cf7",
+        "teamName": "AS Béziers",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "977419b6-1b53-4e1d-a22a-96eab569fd0e",
+        "teamName": "Chamois FC",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "5cc59741-7722-4a9b-aaf3-f4b0a28d5b64",
+        "teamName": "Clermont Foot",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "1bbbacdd-dc29-4f5c-b667-6f88f21b9f35",
+        "teamName": "ESTAC Troyes",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "99e6f489-7f02-45c6-bd15-352a51eeded6",
+        "teamName": "FC Lorient",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "bf4d4c0e-9e76-4dcf-b3cb-6000c465692b",
+        "teamName": "FC Metz",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "af183bf9-a9ad-41fe-80ab-c80b4520a0d5",
+        "teamName": "FCSM",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "06d9deb4-5fb4-4e32-95b1-2ac41b427f75",
+        "teamName": "Gazélec Ajaccio",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "a908997f-78f6-449a-a7bc-c27203989f07",
+        "teamName": "Grenoble Foot",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "a9825b76-15b9-4dc2-baaf-72435b9735d5",
+        "teamName": "Havre AC",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "92a54117-0f11-4dde-95ef-edc77818c449",
+        "teamName": "La Berrichonne",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "eb437526-7cdd-41a5-b6b9-117b6d85cd3b",
+        "teamName": "Nancy",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "0789f54b-e84b-495b-8650-1a6340288584",
+        "teamName": "Paris FC",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "8597d675-8c9f-4921-91e5-50a3de35cd9a",
+        "teamName": "RC Lens",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "26e79ee8-e5be-41e2-8eae-3bd3e8109af2",
+        "teamName": "Red Star FC",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "e2ca411b-93d9-4493-848d-9a164318e506",
+        "teamName": "Stade Brestois",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "a452abe1-9489-4b9f-a863-fae19150b27c",
+        "teamName": "US Orléans",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "2d8a159b-f73a-4002-abc1-48780d85d870",
+        "teamName": "Valenciennes FC",
+        "country": "FRANCE",
+        "league": "DOMINO'S LIGUE 2"
+    },
+    {
+        "id": "c5c68ff7-cb6f-4500-84cc-3f8379af1951",
+        "teamName": "    1. FC Nürnberg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "d97d013c-31f6-47ac-bc7b-546bc76a5ce4",
+        "teamName": "1. FSV Mainz 05",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "a68b3039-da35-4f1c-be0c-00dd85e51f6d",
+        "teamName": "Dortmund",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "e17829c0-0a35-4df9-8358-f2ca705730a4",
+        "teamName": "Düsseldorf",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "114e4f07-1b30-4130-b5d9-c7bc8e740262",
+        "teamName": "FC Augsburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "88a3d3c6-cb97-4d29-bcaf-d8a3bb4a78eb",
+        "teamName": "FC Bayern",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "8ff75712-567d-4531-a6b3-a3757875c99c",
+        "teamName": "Frankfurt",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "8017e8fc-a4c1-4407-8b99-13b75ef7e84d",
+        "teamName": "Hannover 96",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "880b6932-add1-4b08-856e-377d9563ca0f",
+        "teamName": "Hertha BSC",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "02d14eeb-8d73-48a4-ab1c-66bdf1bc8b9d",
+        "teamName": "Leverkusen",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "c0acff43-5bd3-4930-aeaa-a69a2e78d8fb",
+        "teamName": "M'gladbach",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "5d8ce418-da11-443b-b595-4c0d1c8de684",
+        "teamName": "RB Leipzig",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "e8595835-2fc0-47ec-aee6-7b3ba4e54c27",
+        "teamName": "SC Freiburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "17e8b857-0dc7-42c5-b754-896c95ff9e14",
+        "teamName": "Schalke",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "ffd5772c-cdf1-4e5c-9a5c-2df1095a534d",
+        "teamName": "TSG Hoffenheim",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "a089b8fd-4bdc-45d2-96b9-a65fe566d1a3",
+        "teamName": "VfB Stuttgart",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "ce2fe5e3-ef9d-4ad8-ba35-65a57fc32598",
+        "teamName": "VfL Wolfsburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "ff68433a-5984-41fb-b447-20fa841038e9",
+        "teamName": "Werder Bremen",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA"
+    },
+    {
+        "id": "e7f6e306-09ea-4d1b-b035-1f1dca9a96ec",
+        "teamName": "Aue",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "f3640724-e64d-421a-b0fb-0045b49b252f",
+        "teamName": "Bielefeld",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "cca05ff9-f723-45ca-9cde-0fde6d4e4da1",
+        "teamName": "Bochum",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "051962d5-cfeb-4a72-a5be-9bbd38e48215",
+        "teamName": "Darmstadt",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "96cb5a84-572f-4d16-a581-49b3524e1a1d",
+        "teamName": "Dresden",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "f79ed50e-bb6b-43c6-afa2-114b55fd5397",
+        "teamName": "Duisburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "0d14eb1e-1b60-4dec-87c8-0d640a32a951",
+        "teamName": "Fürth",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "b912fb11-a8dd-4c54-9736-da4d3dcc4400",
+        "teamName": "Hamburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "02d59f9f-6f72-4d57-abfb-fccd83e1a14a",
+        "teamName": "Heidenheim",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "2a18ce89-3ac3-4d2e-9002-2385eb6bf446",
+        "teamName": "Ingolstadt",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "6df153a8-e18a-464f-b6c5-792317d46a5b",
+        "teamName": "Kiel",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "6f1c92f5-367f-43c8-9044-dc7fe4a155bf",
+        "teamName": "Köln",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "6dcba17f-dd59-4d35-b81f-6a866cda57b7",
+        "teamName": "Magdeburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "bca2e4bd-934d-4eb4-a944-52a8c74c5f07",
+        "teamName": "Paderborn",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "cd747f08-3491-4ccc-a0e9-6c17ee47f5e0",
+        "teamName": "Regensburg",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "2cf6b5ba-534e-4c13-80ce-10b2c5a645c0",
+        "teamName": "Sandhausen",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "8db6e483-c026-4108-8329-6ff0ec3d7049",
+        "teamName": "St. Pauli",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "edd27a06-7265-4cf7-a66c-0ef41db0a2fd",
+        "teamName": "Union Berlin",
+        "country": "GERMANY",
+        "league": "BUNDESLIGA 2"
+    },
+    {
+        "id": "fbf7c92e-1f09-4b18-9d41-dc48670ebacc",
+        "teamName": "1860 München",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "eb3e2cf4-8884-4ae6-a828-1928ceee5a3e",
+        "teamName": "Braunschweig",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "42c25093-b65b-4464-8b3a-82d23d1fe3a6",
+        "teamName": "Carl Zeiss Jena",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "67989952-707e-402a-a21f-bab884484bf6",
+        "teamName": "Energie Cottbus",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "23a5ea76-a1ff-4740-8d31-314f11ab5b07",
+        "teamName": "Fortuna Köln",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "7eda38c7-973f-4165-a37e-4d951adb7270",
+        "teamName": "FSV Zwickau",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "f1c280fc-c131-4e14-a68f-e4a74bcfe448",
+        "teamName": "Hallescher FC",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "d438a15e-de00-49f5-8819-7f5ed3cad386",
+        "teamName": "Hansa Rostock",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "e3188208-a95c-47c6-9f47-f8764467d21c",
+        "teamName": "Kaiserslautern",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "1013b062-acee-4902-a4e5-0eff660f6239",
+        "teamName": "Karlsruher SC",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "a01106ad-41aa-4c4b-b500-a27f8458602a",
+        "teamName": "KFC Uerdingen",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "b3043f9b-ea80-4a4b-87b4-7aa2568019aa",
+        "teamName": "Preußen Münster",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "89dd3919-64b0-41ed-980d-29e96575aaa9",
+        "teamName": "S. Großaspach",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "39b3be34-8d69-46dc-9125-ce4018745c81",
+        "teamName": "Sportfreunde Lotte",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "bacd9383-36b3-44f3-9834-9cf52311bcb3",
+        "teamName": "SV Meppen",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "04c8d402-6071-4585-a429-40816800812d",
+        "teamName": "SV Wehen",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "44ce4097-bd98-4b47-9e86-f2e44219025f",
+        "teamName": "Unterhaching",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "2236cc5a-5324-467b-b84e-74f68a670ed0",
+        "teamName": "VfL Osnabrück",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "187229bc-bdbc-42f0-90e2-65eb769ef14e",
+        "teamName": "VfR Aalen",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "028ef473-8956-47d6-85a5-b4c9efee2efd",
+        "teamName": "Würzburg",
+        "country": "GERMANY",
+        "league": "3. LIGA"
+    },
+    {
+        "id": "049fb6cd-2f6a-4f04-ba51-b6deaf38cef8",
+        "teamName": "Bohemian FC",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "0da9e73c-f1d8-4f2c-93af-ea0f860b81f9",
+        "teamName": "Bray Wanderers",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "83f2baf2-ae52-4382-bda6-3c4ae8778685",
+        "teamName": "Cork City",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "887fe0cf-9593-4872-a5f0-dca6bca4b4c2",
+        "teamName": "Derry City",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "83c35caf-4505-4909-97e4-b7caff0c0d5a",
+        "teamName": "Dundalk",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "687f6363-43ad-4c6d-a4e2-63e19a8bac1c",
+        "teamName": "Limerick FC",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "1c45646f-fc22-42a5-9606-4e5988eb4ba7",
+        "teamName": "Shamrock Rovers",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "263283ae-ccd2-462a-ae32-056026e74b5a",
+        "teamName": "Sligo Rovers",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "f2f55658-ca8d-48ba-a524-6c972290ece0",
+        "teamName": "St. Pats",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "d9a81bf6-0a8f-42d6-8d3d-9c99dee0ce2b",
+        "teamName": "Waterford FC",
+        "country": "IRELAND",
+        "league": "SSE AIRTRICITY LEAGUE"
+    },
+    {
+        "id": "2bc0de22-7579-47ee-bda2-7ccaa3c8f138",
+        "teamName": "Atalanta",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "f81aa962-e6e4-482d-9242-5dbdf2cabb74",
+        "teamName": "Bologna",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "bcc6e365-5022-43b0-9c23-46d53543bd9a",
+        "teamName": "Cagliari",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "e72ae011-6253-4db9-8e24-bb5ccdd80dcd",
+        "teamName": "Chievo Verona",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "3af26cfc-ccdc-440c-a7df-dcf1aa6b81c6",
+        "teamName": "Empoli",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "d917dea6-67a9-44e9-9391-c80550f48b93",
+        "teamName": "Fiorentina",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "ef749db7-79da-4625-9a1a-f428e1fa3e2d",
+        "teamName": "Frosinone",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "86f1b7d0-fdba-4251-b44f-28058623c586",
+        "teamName": "Genoa",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "99a514e5-c8a8-42d3-b4fc-1a833597d19a",
+        "teamName": "Inter",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "ebaab364-0c59-4553-89fc-c7a3134982df",
+        "teamName": "Juventus",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "85a32cfb-a68c-4ec0-9e1d-499a19527f94",
+        "teamName": "Lazio",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "d0f386f8-7cc3-481e-96af-ec72d1f2f4a4",
+        "teamName": "Milan",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "8767410a-e43f-45f9-8efb-3dad168fa8a4",
+        "teamName": "Napoli",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "4c6dbfcd-d76a-4f6a-aba9-a776c0da6490",
+        "teamName": "Parma",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "16faa29c-8c63-4bec-af8d-11dd72289a15",
+        "teamName": "Roma",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "021f0719-e808-4004-84bd-f1dc516b6e69",
+        "teamName": "Sampdoria",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "8533110f-6a67-4e9f-86f3-65bf6e348796",
+        "teamName": "Sassuolo",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "911018c4-9eab-4680-bea3-f1c9e248e64b",
+        "teamName": "SPAL",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "da82aca9-c559-459e-87f3-d16b71374f33",
+        "teamName": "Torino",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "b65984b6-a56f-406c-b801-89d2bc02e133",
+        "teamName": "Udinese",
+        "country": "ITALY",
+        "league": "SERIE A TIM"
+    },
+    {
+        "id": "231b4a04-305e-4c3c-bc50-c442abb7d969",
+        "teamName": "Ascoli **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "9f7b669c-4ebc-4c7e-b3b1-b844e324ef46",
+        "teamName": "Benevento",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "f1e3351a-b714-4045-8a28-14442f41c9dc",
+        "teamName": "Brescia **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "b710cc13-5d6c-4b09-a8bb-26625b80435d",
+        "teamName": "Carpi **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "22de1776-874e-4769-9f43-eb4137de875c",
+        "teamName": "Cittadella **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "bb2017e7-3fd4-47a4-a39c-163b5a6a2961",
+        "teamName": "Cosenza **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "05b60c0b-8301-477e-a30c-c64ebb235df4",
+        "teamName": "Cremona **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "25a7e27b-27fa-44e2-9dd7-db765c018944",
+        "teamName": "Crotone",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "f3edfa9b-8015-4215-bffd-8f07d2cff601",
+        "teamName": "Foggia **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "db9a3dcc-de62-4611-93dd-aa8c09d69474",
+        "teamName": "Hellas Verona",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "fc77e383-7a73-4910-8638-40a1f43b756f",
+        "teamName": "La Spezia **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "5e7667db-aa43-4afb-b9df-98cb60ee5210",
+        "teamName": "Lecce **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "ffc41982-0cea-4a2f-a403-75cac95d09c5",
+        "teamName": "Livorno **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "4b0fb863-384a-403d-9c50-9532a4ed5280",
+        "teamName": "Padova **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "0d1f37b4-b4f4-43cd-9714-c24aba64d4c6",
+        "teamName": "Palermo **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "24c36a2b-327a-42c1-8351-6391902f65d0",
+        "teamName": "Perugia **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "22da3fd2-5f5e-40bb-81e8-88a11cece904",
+        "teamName": "Pescara **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "0f912851-c0df-4706-af1e-66f4f4b14126",
+        "teamName": "Salerno **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "6d973152-48c8-497a-a829-f8e27a36c9b0",
+        "teamName": "Venezia **",
+        "country": "ITALY",
+        "league": "CALCIO B"
+    },
+    {
+        "id": "0f03dd09-0e9b-48c9-96e7-04c72a0e491f",
+        "teamName": "Cerezo Osaka",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "fcb9e537-3078-4386-9ace-3e109f874f5a",
+        "teamName": "F.C. Tokyo",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "d7966bd8-303c-4aa9-836b-980a89c48f3f",
+        "teamName": "Gamba Osaka",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "c8dd22f3-69cb-484d-b60d-01c9f4abb83b",
+        "teamName": "H.Consa.Sapporo",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "c7128664-68d3-4629-81e1-1d5074118165",
+        "teamName": "Júbilo Iwata",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "b40d8aa1-c756-428d-85b0-2ed6d0b7d2ae",
+        "teamName": "Kashima Antlers",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "5427ab28-5710-4faa-b0ea-06f5c324f898",
+        "teamName": "Kashiwa Reysol",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "104c3936-b272-461e-9107-8a0dc316d2ae",
+        "teamName": "Kawasaki-F",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "0f3fd08e-1931-4f9b-8621-0c6971d5484d",
+        "teamName": "Nagoya Grampus",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "c0208162-180e-4780-850c-4832d0debc57",
+        "teamName": "Sagan Tosu",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "0e4eabec-8735-4aec-96dc-63dc4870464f",
+        "teamName": "Shimizu S-Pulse",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "1e86a9b4-acd2-4432-9f67-c380c929102e",
+        "teamName": "S-Hiroshima",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "8b057f44-1f22-4507-a826-faaa5e0d6ea8",
+        "teamName": "Shonan Bellmare",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "d9234b88-3f5a-4314-a830-2d165b2f706d",
+        "teamName": "Urawa Reds",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "0082846f-1337-4aca-b8fb-b01fc5b4d10b",
+        "teamName": "Vegalta Sendai",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "2e58d947-f88c-4ba7-a45b-9c6b0edb3404",
+        "teamName": "Vissel Kobe",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "91d18aaf-6900-477f-ad13-0cf9fc37ae04",
+        "teamName": "V-Varen Nagasaki",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "b80ac580-8e7f-448b-9069-0df52a6ade62",
+        "teamName": "Yokohama F･M",
+        "country": "JAPAN",
+        "league": "MEIJI YASUDA J1"
+    },
+    {
+        "id": "67d96eca-0f1a-428d-b166-27a7e0325eb1",
+        "teamName": "Daegu FC",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "d58159ce-d569-42ef-9023-7aedfd2fa99d",
+        "teamName": "FC Seoul",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "7ad5599a-2e38-44e7-93dc-9b6d1ea53ea9",
+        "teamName": "Gangwon FC",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "87486418-7c6e-4968-9128-49e459c55d30",
+        "teamName": "Gyeongnam FC",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "e0cd71e2-10af-4a71-94ea-8e36b9f13407",
+        "teamName": "Incheon United",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "927b5220-30ff-4c2e-a4b8-de16f8577cc4",
+        "teamName": "Jeju United",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "3c8f77a2-6242-41b2-a78f-cfb2228b6f24",
+        "teamName": "Jeonbuk Hyundai",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "180ef94d-41fe-42a2-b08d-4c68cae231c2",
+        "teamName": "Jeonnam Dragons",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "0c55c6b7-4bd1-4cd4-a58c-fc76d64e63d3",
+        "teamName": "Pohang Steelers",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "00742749-5cf7-45e9-9e7f-9081db88a602",
+        "teamName": "Sangju Sangmu",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "078c936b-4366-4ce5-9e6e-06b3c64a3544",
+        "teamName": "Suwon Samsung",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "f2373b63-8da0-40ed-817b-df40357026a2",
+        "teamName": "Ulsan Hyundai",
+        "country": "KOREA REPUBLIC",
+        "league": "K-LEAGUE 1"
+    },
+    {
+        "id": "3c90dda5-b078-4ea6-9d5e-4a04596f88aa",
+        "teamName": "Argentina",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "8c9e8955-8749-4ed1-81a1-1cee2dbe24ad",
+        "teamName": "Australia",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "1615a26d-70b9-4e8f-b81a-15437fcd3ee2",
+        "teamName": "Austria **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "b830d4d5-e573-4b4b-b45c-e0d1b8720015",
+        "teamName": "Belgium",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "73647249-6147-4bb6-9b0a-b9e8286f6085",
+        "teamName": "Bolivia **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "a007807d-b17b-4b32-ae6d-b3eabe81523f",
+        "teamName": "Brazil (Authentic kits and badges, generic players aside from Neymar Jr.)",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "a0adcfa2-d4b9-4d0d-b197-74088d0c134d",
+        "teamName": "Bulgaria **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "f8913bc5-7b75-4f71-85d5-b875c5a9b21d",
+        "teamName": "Cameroon **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "dfe1f7cc-39a7-4673-8e2b-71fc6821c910",
+        "teamName": "Canada",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "9cdc0e3b-4dd7-45cb-be43-84e5801b8a0d",
+        "teamName": "Chile",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "86884a36-aaf6-4565-9261-82c5b9d7af2c",
+        "teamName": "Colombia **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "7d31b933-ca00-4997-957b-fb520b75fd2d",
+        "teamName": "Côte d'Ivoire (Generic kits and badges, mix of authentic and generic players.)",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "0007b8a7-38d9-476b-ad58-37eb03496943",
+        "teamName": "Czech Republic",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "646a1317-9987-48c8-ad20-62c867a6ba3e",
+        "teamName": "Denmark",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "03a20195-445d-439c-9ac5-41cf1f74db64",
+        "teamName": "Ecuador **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "e40eebc8-977d-4c2d-9537-5a3fe4665b66",
+        "teamName": "Egypt **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "ebce5be8-7e1a-4403-b470-5734e5fe78a1",
+        "teamName": "England",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "70c99ca6-2af2-49e3-a91d-468c521985db",
+        "teamName": "Finland **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "37ff8f03-9a43-4a10-a15a-59d9b2611d3e",
+        "teamName": "France",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "f2551d26-fe34-4b02-a47d-b3f680322815",
+        "teamName": "Germany",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "e640c9ee-50fd-4aff-8574-a2f4955b550e",
+        "teamName": "Greece",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "803ad013-fc5d-43db-8efb-9fc30ef07f69",
+        "teamName": "Hungary **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "f9e92700-77bd-43e2-bc19-b52b097eef5d",
+        "teamName": "Iceland",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "5dc53744-09a0-4768-b0c4-06a0dc06544d",
+        "teamName": "India **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "5f146982-2670-4936-985b-2c6bcc13d399",
+        "teamName": "Ireland",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "802fcfac-0d57-42d1-974b-416409afca15",
+        "teamName": "Italy",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "41ec2204-ee3e-4c11-8f17-4a5cfe5fe977",
+        "teamName": "Mexico",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "787a29b5-d845-4b2b-b5ac-0af62ab03ae7",
+        "teamName": "Netherlands",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "37631fb2-a1c3-4789-8c6b-269b4ff6c0fd",
+        "teamName": "New Zealand",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "4b67b843-af4f-4e77-a53d-c4e067d2cb79",
+        "teamName": "Northern Ireland",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "f438f607-121b-4d7e-aece-af69fa0f47cf",
+        "teamName": "Norway",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "f3ab72d0-da42-4d77-babf-a8d929a3ba9a",
+        "teamName": "Paraguay (Generic kits and badges, mix of authentic and generic players)",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "0e8ca8ea-eea3-48dd-a12c-ce21b20a6f2d",
+        "teamName": "Peru **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "eddb32f4-76d4-4540-b139-1a5028829013",
+        "teamName": "Poland",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "45e495da-9a2d-4f16-a40b-48ff40ea0526",
+        "teamName": "Portugal",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "4af4d289-55ff-47bf-8cb1-a19f540f7e99",
+        "teamName": "Romania",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "daa6f593-d41a-452a-b75f-97dd19fb15e3",
+        "teamName": "Russia",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "b241f9f8-d57a-4a4c-ad83-775cb465c4b6",
+        "teamName": "Scotland",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "b44ff781-f8f4-4baa-9c26-4453d43ab848",
+        "teamName": "Slovenia **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "b6bbc480-f501-4de0-9e70-cfae3480010b",
+        "teamName": "South Africa **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "69d7c1ed-5ee6-44a8-92f3-0705c4e79814",
+        "teamName": "Spain",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "c93e9a92-6178-4703-b448-db36b31bff1e",
+        "teamName": "Sweden",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "7abd2319-c717-4369-9ec1-4a8062f59544",
+        "teamName": "Switzerland **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "f2ed60cf-851d-4fba-899c-e0bd8502f0d9",
+        "teamName": "Turkey",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "385ee464-7af5-4787-8090-0f877fb243c0",
+        "teamName": "United States",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "b69f5c74-1ab8-4415-b0cf-c911649030f0",
+        "teamName": "Uruguay **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "50d1ee40-ff4f-48ce-88e4-ada7f5113916",
+        "teamName": "Venezuela **",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "685ef1ed-a361-470f-bb0e-6c4e6fa94e58",
+        "teamName": "Wales",
+        "country": "MEN'S NATIONAL",
+        "league": "MEN'S NATIONAL"
+    },
+    {
+        "id": "ea26fd05-b8e3-42a4-9266-726a83325e8a",
+        "teamName": "América",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "e4631545-c723-4d72-88ec-3f9b7754f23b",
+        "teamName": "Atlas",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "43257ac2-3119-4583-ae04-c5f23c133677",
+        "teamName": "Cruz Azul",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "de245563-114b-4cfa-8ed7-1ef7ba56e9c3",
+        "teamName": "Guadalajara",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "be06a9b6-fd5b-48d6-80b8-9994ea75c12d",
+        "teamName": "León",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "df075788-fbba-4547-8653-f37206a3ced4",
+        "teamName": "Lobos",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "9edf577e-3425-4d9f-b2a1-5adcffcc7b05",
+        "teamName": "Monarcas Morelia",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "ea2e635d-ad56-48b7-aa20-6d8ad727f199",
+        "teamName": "Monterrey",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "6e7995d9-94ec-464e-872f-4308700ed5e9",
+        "teamName": "Necaxa",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "78b1fc87-c01d-45da-a485-b4af17b99b2d",
+        "teamName": "Pachuca",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "98d6a484-10a9-41cd-b23b-acfe1baa9b94",
+        "teamName": "Puebla",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "2e20bfa8-d140-4944-a680-ac3620e5ece0",
+        "teamName": "Querétaro",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "641bf60a-ee99-4841-aee4-f2b9be3b1b3c",
+        "teamName": "Santos Laguna",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "55535852-c855-4e01-99be-c353b4537082",
+        "teamName": "Tigres",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "11b87ab4-87a5-4cc6-bae4-5ad39bc4829c",
+        "teamName": "Tijuana",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "11dd0cab-4f0b-4c75-b81d-4a5151c73490",
+        "teamName": "Toluca",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "c1333c47-d52d-4267-904a-adccaafbc5a6",
+        "teamName": "U.N.A.M.",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "51a2e7c5-6f80-4eb1-ad02-4e2de4b7d840",
+        "teamName": "Veracruz",
+        "country": "MEXICO",
+        "league": "LIGA BANCOMER MX"
+    },
+    {
+        "id": "cf50acaf-06ec-4be8-b91e-859810bcf23a",
+        "teamName": "ADO Den Haag",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "86950387-bed6-407d-8f9f-3348ce93a6c1",
+        "teamName": "Ajax",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "dc380593-b0ae-43fc-aef8-3060d2401880",
+        "teamName": "AZ",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "d7fe377c-679d-444f-accb-8109534c9c5a",
+        "teamName": "De Graafschap",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "a366ffc8-7fd8-463a-a4d1-6d1ccf811d50",
+        "teamName": "Excelsior",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "07df5de8-9f86-4d41-9665-e1057ecc2a63",
+        "teamName": "FC Emmen",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "4ea8c632-417f-4177-89fc-674c27a0da9f",
+        "teamName": "FC Groningen",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "97766a4e-7daa-40b3-a2da-347147de787b",
+        "teamName": "FC Utrecht",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "e297d9c1-5e7f-4b02-9485-8b3bed75be39",
+        "teamName": "Feyenoord",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "ac974eb8-459d-444f-9aca-cec4945478c4",
+        "teamName": "Fortuna Sittard",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "215ab3e2-2ea5-4c8e-bb3d-5bfb5b4b0e54",
+        "teamName": "Heracles Almelo",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "a3558626-3942-42f4-9363-75ad7a4ae2b5",
+        "teamName": "NAC Breda",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "7e2725c4-20dd-4f9f-846d-11c7d932a047",
+        "teamName": "PEC Zwolle",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "c011feed-9f35-47d5-b45b-bd31589b6529",
+        "teamName": "PSV",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "24e7c852-535f-4a3b-be38-97ea38eb0035",
+        "teamName": "SC Heerenveen",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "0c917490-1f5b-4245-84a2-b2bdf925e05d",
+        "teamName": "Vitesse",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "7035415a-654f-409d-92bc-174004057205",
+        "teamName": "VVV-Venlo",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "e4b7352e-eb41-45d2-a7c1-2b84873320df",
+        "teamName": "Willem II",
+        "country": "NETHERLANDS",
+        "league": "EREDIVISIE"
+    },
+    {
+        "id": "f1e5c947-fac7-487b-9f0a-8c4448598825",
+        "teamName": "FK Bodø/Glimt",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "8c6e0048-0e8a-4a94-a08b-387b6745032a",
+        "teamName": "FK Haugesund",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "66dc9651-7e89-49e1-84e1-005f416d36d5",
+        "teamName": "IK Start",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "8201d919-ae09-46a7-a004-7e8a088a3035",
+        "teamName": "Kristiansund",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "03059bb9-69e0-4ae6-976c-f94e134eb328",
+        "teamName": "Lillestrøm SK",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "8c84c62f-12cb-41cc-aa2d-dbd3d78f56b7",
+        "teamName": "Molde FK",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "1149c6f8-2559-41dc-8d4c-eea3b9fcaed6",
+        "teamName": "Odds BK",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "85e7d841-6573-4cbd-a271-7c5f6261adb0",
+        "teamName": "Ranheim Fotball",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "80703bec-0846-455d-a4df-027da06f6d69",
+        "teamName": "Rosenborg BK",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "b05b7851-2287-46f4-aed4-0649f0f2d2ba",
+        "teamName": "Sandefjord",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "5fe2a59a-00f4-4732-bb26-fe750803e2ba",
+        "teamName": "Sarpsborg 08 FF",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "f5b3f0d1-e3f8-4643-9ebd-940cb8ef3f02",
+        "teamName": "SK Brann",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "99825fb8-6af0-4789-ae7b-22eb38405cc3",
+        "teamName": "Stabæk Fotball",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "d37cfa73-9cba-4fa3-b40b-42971ac4e2ea",
+        "teamName": "Strømsgodset IF",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "0964ae33-c7a9-41a3-9187-10bf1c4356a4",
+        "teamName": "Tromsø IL",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "c6bed565-142c-4753-a48c-09fc3ff0d1f6",
+        "teamName": "Vålerenga Fotball",
+        "country": "NORWAY",
+        "league": "ELITESERIEN"
+    },
+    {
+        "id": "3d4cec42-0456-4d98-8d1c-99aa56ed6355",
+        "teamName": "Arka Gdynia",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "92963ba2-6cab-401a-83e6-b7062caab744",
+        "teamName": "Cracovia",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "d9db601c-26da-4bea-9916-37a79acd5c97",
+        "teamName": "Górnik Zabrze",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "668238d7-4fc6-41cd-9c35-ee960af629eb",
+        "teamName": "Jagiellonia",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "227221e9-ef47-4d6c-8ec7-31da4976a965",
+        "teamName": "Korona Kielce",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "e848ee25-a834-45aa-a6ff-2f2198207aa5",
+        "teamName": "Lech Poznań",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "e4ed4045-f93d-4f40-af92-353e078f8205",
+        "teamName": "Lechia Gdańsk",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "459ccf2e-7ead-4f05-abee-318fc56bc46b",
+        "teamName": "Legia Warszawa",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "bd6cc7f1-00b6-49f6-9b28-4abd2e30f508",
+        "teamName": "Miedź Legnica",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "3c3e27e8-15ce-4df5-ad0d-07b2ddca4d2a",
+        "teamName": "Piast Gliwice",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "2cca69b0-b1d7-4887-937c-28007932a691",
+        "teamName": "Pogoń Szczecin",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "0eed5240-b886-45aa-bf81-aed00df429b1",
+        "teamName": "Śląsk Wrocław",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "a9e63e7c-9304-4155-9e9a-effe9e5653cd",
+        "teamName": "Wisła Kraków",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "d4411fc3-b83e-44f9-a19f-17f356074802",
+        "teamName": "Wisła Płock",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "715c505e-4a8c-408a-89e2-f46941d42f0e",
+        "teamName": "Z. Sosnowiec",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "d32f3145-6542-44b2-9a48-9dcd23b4fd19",
+        "teamName": "Zagłębie Lubin",
+        "country": "POLAND",
+        "league": "EKSTRAKLASA"
+    },
+    {
+        "id": "7777edfb-f169-4b8c-99ca-46385c492db5",
+        "teamName": "Belenenses",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "0246cac1-2a74-4a34-9080-200bc47153c6",
+        "teamName": "Boavista FC",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "4261b48a-3781-41b5-bf12-d482bf997341",
+        "teamName": "CD Feirense",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "69598ce0-e6d3-41e4-9df6-0efc9e297dec",
+        "teamName": "CD Tondela",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "873b8b94-9dfa-4563-b631-de713f037c01",
+        "teamName": "Desportivo Aves",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "db780023-3bec-4579-a06b-998d560a69e2",
+        "teamName": "FC Porto",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "d6798f5c-e0c3-409c-a6dc-f7bd6a7ba81b",
+        "teamName": "Funchal **",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "cc38ed80-8dba-4ced-b16f-51b6064f9401",
+        "teamName": "GD Chaves",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "a1913996-5a11-471a-9be4-786dfee8cd69",
+        "teamName": "Marítimo",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "268f55a6-49b5-4610-9416-a4b6fc5f6357",
+        "teamName": "Moreirense FC",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "5097115a-25d5-433c-92eb-c9720b7bf54f",
+        "teamName": "Portimonense SC",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "8642c771-f791-44aa-82e2-30dbc1fa6b8f",
+        "teamName": "Rio Ave FC",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "262891a3-5a8e-4d06-b9c3-717a4898b1cd",
+        "teamName": "Santa Clara",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "ce2fe92c-fbb3-4f83-83e9-57570ee2f2e1",
+        "teamName": "SC Braga",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "fe1105a1-a971-40e9-a2be-67348f240dfb",
+        "teamName": "SL Benfica",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "7dae1fbd-2ff5-4059-a21a-7fca9285e7a8",
+        "teamName": "Sporting CP",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "b4ac3faa-e227-44a0-84f0-e78aa896929e",
+        "teamName": "V. Guimarães",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "89f5b2ad-a5ea-4a8e-b32b-db8c3a0f24bb",
+        "teamName": "V. Setúbal",
+        "country": "PORTUGAL",
+        "league": "LIGA NOS"
+    },
+    {
+        "id": "5f90dcbd-d354-43a9-bd76-4e545e96d45f",
+        "teamName": "adidas All-Star ***",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "159b3d38-fe98-4675-ba3a-1a28031833e7",
+        "teamName": "AEK Athens",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "2f962cd3-d3c0-4996-beaf-b02067b83c94",
+        "teamName": "CSKA Moscow",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "0765ae03-edcb-48b1-a5ca-e40f40956aed",
+        "teamName": "Dinamo Zagreb",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "58c66516-8162-44e9-8f8c-c0fd96409c35",
+        "teamName": "Dynamo Kyiv",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "fc4b5145-15d2-462e-ad49-351462ffb2f7",
+        "teamName": "HJK Helsinki",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "d533f984-c1c0-4190-8c7e-6db227e787c7",
+        "teamName": "Kaizer Chiefs",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "6fa34771-09e7-4d62-a689-116ec497e968",
+        "teamName": "Lokomotiv Moscow",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "acc15c7d-3d3a-473f-94b8-abe5ac22ae01",
+        "teamName": "MLS All Stars ***",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "e70aa1a2-91ee-4c8b-a923-356760e3801d",
+        "teamName": "Olympiacos CFP",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "5c21f105-a551-4c8d-b067-40db088a5fa4",
+        "teamName": "Orlando Pirates",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "66ef017b-7181-47b8-a50c-b757f4eddb12",
+        "teamName": "Panathinaikos",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "db37a158-d914-4790-a773-13569ea93c24",
+        "teamName": "PAOK",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "4aaf35fb-2810-4d02-92ca-27a8f2261af6",
+        "teamName": "Shakhtar Donetsk",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "da1a2c46-8329-4baa-9137-e3e9108f1cdb",
+        "teamName": "Slavia Praha",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "562b099f-f0d0-4461-8f2a-583f1f1e770c",
+        "teamName": "Sparta Praha",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "12125090-f7cc-438a-aa07-d7e3a7cf2cfc",
+        "teamName": "Spartak Moscow",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "47369aa3-ffb7-4107-ab1f-a2268bcd6466",
+        "teamName": "Viktoria Plzeň",
+        "country": "REST OF WORLD",
+        "league": "REST OF WORLD"
+    },
+    {
+        "id": "d060d40b-a947-4767-8371-e97bc446fcbe",
+        "teamName": "Al Ahli",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "46fe7257-d9c7-448d-a1f8-138ab41340af",
+        "teamName": "Al Batin",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "a38df092-54e1-4065-bb8a-3c0da4a84944",
+        "teamName": "Al Faisaly",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "16a54bfe-7492-453f-9101-9ad67cd2fea7",
+        "teamName": "Al Fateh",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "5d4df447-9c1b-4d09-91e1-0a39bb679b47",
+        "teamName": "Al Fayha",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "b6536b30-e8e6-4722-a998-d74d2f622f59",
+        "teamName": "Al Hazem",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "dffa6a92-1185-481c-b114-dbc881459f21",
+        "teamName": "Al Hilal",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "4690ef46-947f-4931-9bdc-80e2035d8706",
+        "teamName": "Al Ittihad",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "b62ed287-5dfb-4ad6-9d48-7ea06f20833d",
+        "teamName": "Al Nassr",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "93b7c4c5-8f85-40c0-8726-b4214fb1677d",
+        "teamName": "Al Qadisiyah",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "a589b559-068a-4aa2-a602-2a6f0f6374b9",
+        "teamName": "Al Raed",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "94283ece-04e0-4790-8730-0978638c51bb",
+        "teamName": "Al Shabab",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "77807631-cd84-47b2-b38c-83065409b052",
+        "teamName": "Al Wehda",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "faeff642-63f6-4b9b-b8c4-85f2097854aa",
+        "teamName": "Al Taawoun",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "f13e707b-3559-4cd2-a1af-cee1bb6de393",
+        "teamName": "Ettifaq FC",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "541280c8-c80a-4868-8277-402b10eeebff",
+        "teamName": "Ohod Club",
+        "country": "SAUDI ARABIA",
+        "league": "SAUDI PROFESSIONAL LEAGUE"
+    },
+    {
+        "id": "acf9e16f-89b8-486d-943d-75de34c750e1",
+        "teamName": "Aberdeen",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "e98cebeb-b42b-4a47-9c7e-f3bb10538cae",
+        "teamName": "Celtic",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "efe5a8b2-6dab-4cb0-bc16-53daeb472a2d",
+        "teamName": "Dundee FC",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "a361fc63-cc58-45b6-8bba-781b487f000a",
+        "teamName": "Hamilton",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "648eff49-4ae1-4b13-906a-00cb7fca45b8",
+        "teamName": "Hearts",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "b1ba28f5-7ac0-4921-b0c4-768e42e3ed0b",
+        "teamName": "Hibernian",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "01ce42e8-ebe5-4600-bf20-1f5a78959fa9",
+        "teamName": "Kilmarnock",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "a1740f20-2ef7-43a3-b0a2-003cfc421fd3",
+        "teamName": "Livingston",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "4beed32a-29b4-45c8-a01e-79cf2cc73333",
+        "teamName": "Motherwell",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "6c8ad0d8-5631-4037-9afc-3e84ec7f9aff",
+        "teamName": "Rangers",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "c7869bc2-9be5-4960-95db-3769aa0f8199",
+        "teamName": "St. Johnstone",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "d540d279-dc75-4192-a2f8-aa80b04af2e8",
+        "teamName": "St. Mirren",
+        "country": "SCOTLAND",
+        "league": "SCOTTISH PREMIERSHIP"
+    },
+    {
+        "id": "f68dea40-f53b-4b26-8f55-00912542e6c9",
+        "teamName": "Athletic Club",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "79dda82e-0dd3-4782-906c-3fa2facbba42",
+        "teamName": "Atlético Madrid",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "6262d8f5-1e19-424b-ad11-542fcdf89495",
+        "teamName": "CD Leganés",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "1920cfee-8aa2-40b8-b2bb-c9adb262927c",
+        "teamName": "D. Alavés",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "f71d5151-e394-4137-bee7-bcf8a228fd2b",
+        "teamName": "FC Barcelona",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "80ee0472-4491-4351-a71f-80b36e88a700",
+        "teamName": "Getafe CF",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "62bb8f2b-aeeb-480d-b372-abd29b119c44",
+        "teamName": "Girona FC",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "c95e1e93-6ab7-4542-8ad7-fe679cd2dd28",
+        "teamName": "Levante UD",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "94111fe7-7694-4242-8c13-69d4de140f58",
+        "teamName": "R. Valladolid CF",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "d3f8a783-3b8d-43ad-8086-dedadc9be7bd",
+        "teamName": "Rayo Vallecano",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "c9c8d38d-d192-42ab-80d7-de3d4715d265",
+        "teamName": "RC Celta",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "5d96d09f-764e-480d-b090-4c08661b1ff0",
+        "teamName": "RCD Espanyol",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "a2e4cc3d-a055-4c6c-94c0-f82cdaaa2244",
+        "teamName": "Real Betis",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "abbf509b-9dad-468d-a68b-4dbddb8c5b56",
+        "teamName": "Real Madrid",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "c4b34a22-4f42-44fb-b084-c4780fbbf39e",
+        "teamName": "Real Sociedad",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "aa2c260f-94e3-4f0c-b726-2c2625dceed0",
+        "teamName": "SD Eibar",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "74f3e8a6-a19f-4e88-bb7d-623d60772042",
+        "teamName": "SD Huesca",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "db43d335-7232-4373-92d3-4b4c70a31073",
+        "teamName": "Sevilla FC",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "2e16ae8d-e913-47da-8267-05e81233d682",
+        "teamName": "Valencia CF",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "b248cdf1-2818-494e-b2eb-ebac3054232b",
+        "teamName": "Villarreal CF",
+        "country": "SPAIN",
+        "league": "LALIGA SANTANDER"
+    },
+    {
+        "id": "99e170d5-edbc-4526-877c-dd32f2972f85",
+        "teamName": "AD Alcorcón",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "eca4a395-8d90-4a2b-a76d-869064c2d962",
+        "teamName": "Albacete BP",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "4560ac48-bd00-4621-8527-a149f6fe3aa5",
+        "teamName": "CA Osasuna",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "68d380b0-3eec-4bcc-9aa9-396dfaa405b6",
+        "teamName": "Cádiz CF",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "2d71c67e-a28e-42e2-bc53-664e46721174",
+        "teamName": "CD Lugo",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "a7ca465c-0995-463c-9591-55df23e7865b",
+        "teamName": "CD Numancia",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "f4d9e616-84bb-4e3a-bea0-7f1189dd997d",
+        "teamName": "CD Tenerife",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "bd9acf44-66a9-44cc-9b13-c5167fc3926b",
+        "teamName": "CF Rayo",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "3af4c387-d519-4dd2-a457-364efc1c25ce",
+        "teamName": "CF Reus",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "0f61b363-4ead-4b45-9d44-ba70cd73d5e3",
+        "teamName": "Córdoba CF",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "0d72d5b3-4b5c-4c5c-a0d7-519a7329b2ee",
+        "teamName": "Elche CF",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "9d6f65b9-504a-49fd-bb5c-cfa5ef6cf2d5",
+        "teamName": "Extremadura UD",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "4764f0fb-5b1b-418a-8c03-4ab3ddde4e36",
+        "teamName": "Granada CF",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "4aef8909-835f-438e-afd3-844b866242d3",
+        "teamName": "Málaga CF",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "e5bed507-ddff-4c12-a73a-c3d7a48e01b0",
+        "teamName": "Nàstic",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "1092b62c-d31f-48b5-85be-91f3a807916c",
+        "teamName": "R. Oviedo",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "1aed17c8-255e-4239-a686-dfb04ffe969c",
+        "teamName": "R. Sporting",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "813ba860-18e0-4eab-9909-0e986da723f2",
+        "teamName": "R. Zaragoza",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "336c5e82-6ca3-430d-ba3b-95d0bcd9c838",
+        "teamName": "RC Deportivo",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "ec223061-907d-48a0-86b1-466d017dd3de",
+        "teamName": "RCD Mallorca",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "963b5448-417c-4e58-8763-509d2208265c",
+        "teamName": "UD Almería",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "16b7df2a-1350-4edb-8ffc-70cbbbecb492",
+        "teamName": "UD Las Palmas",
+        "country": "SPAIN",
+        "league": "LALIGA 1 | 2 | 3"
+    },
+    {
+        "id": "7891d396-4973-46d7-8b83-f1d21f8f2f79",
+        "teamName": "AIK",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "1ba0f28b-91b0-4d94-ae48-794f391d9280",
+        "teamName": "BK Häcken",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "d867e763-0b73-4899-ace0-ea53720170ff",
+        "teamName": "Brommapojkarna",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "0e20afe5-a57d-4ce6-8a09-208597ebdbd3",
+        "teamName": "Dalkurd FF",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "7243dccb-7a27-44d4-a12a-5fc1c4f86705",
+        "teamName": "Djurgårdens IF",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "7ace5881-7085-4313-9ab2-352db864ffce",
+        "teamName": "GIF Sundsvall",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "ad70e706-1bf5-484c-ba94-98b818bf42d6",
+        "teamName": "Hammarby IF",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "a766c193-0ee3-4dc4-ade8-cffb3d4e3998",
+        "teamName": "IF Elfsborg",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "22b181fb-3b7a-42e4-8f6f-5936ed9df663",
+        "teamName": "IFK Göteborg",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "b67194b7-6a16-4381-9028-e42587957078",
+        "teamName": "IFK Norrköping",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "a8e7755b-87e3-452e-993a-ac6dc60d6889",
+        "teamName": "IK Sirius",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "04c1f85e-e35e-48c1-92d3-05aca4971e08",
+        "teamName": "Kalmar FF",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "05c23c34-8dd8-4b01-a62b-3507b5db9ff9",
+        "teamName": "Malmö FF",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "446aecfc-bddb-4818-9ba7-9760558807fa",
+        "teamName": "Örebro SK",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "33a8c1a5-d3f2-4ad1-bb2c-2c1ee2cee884",
+        "teamName": "Östersunds FK",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "cb952e96-60d3-458c-b2bd-986d188eefaf",
+        "teamName": "Trelleborgs FF",
+        "country": "SWEDEN",
+        "league": "ALLSVENSKAN"
+    },
+    {
+        "id": "e2714d6a-702a-4ba6-9a6e-7bfe07cb5613",
+        "teamName": "BSC Young Boys",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "862e3e42-9ed7-4dc0-9c0c-fe90d1d3664c",
+        "teamName": "FC Basel",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "705504ae-e1a3-46cd-8ba8-5f8b71af1ba3",
+        "teamName": "FC Lugano",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "ca654923-598c-4458-8957-445385b210a5",
+        "teamName": "FC Luzern",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "19628972-6151-44e9-9c35-a32b51b1b6a5",
+        "teamName": "FC Sion",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "838cf246-2599-4d99-a42c-1e8cc8b39a1a",
+        "teamName": "FC St. Gallen",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "8f0d2882-a504-4ea3-bb0e-b8b37f45d614",
+        "teamName": "FC Thun",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "80534f37-7395-4639-8a5c-64805f026f19",
+        "teamName": "FC Zürich",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "1044a237-43e0-4b38-8ac1-302720c540fe",
+        "teamName": "Grasshopper Club",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "10445718-a58d-4895-b777-4bddcd51ae7b",
+        "teamName": "Neuchâtel Xamax",
+        "country": "SWITZERLAND",
+        "league": "RAIFFEISEN SUPER LEAGUE"
+    },
+    {
+        "id": "c279e3db-9ba3-4e4c-9ee7-5dd54072400f",
+        "teamName": "Akhisarspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "4f4dba1d-4d82-489f-8f1c-bff02b54ae98",
+        "teamName": "Alanyaspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "8a54aa4a-1916-4880-9b4a-24ce34663e42",
+        "teamName": "Antalyaspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "e881e8dd-8efb-43ca-a19e-dc2c1835cd43",
+        "teamName": "Başakşehir",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "6a03acb1-ff58-409d-afd0-437ad54530e3",
+        "teamName": "BB Erzurumspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "37fc8f37-1803-4775-bb8b-5cdee9810312",
+        "teamName": "Beşiktaş",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "6176c76d-50cc-4062-acdc-e2d2b21f6c73",
+        "teamName": "Bursaspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "820bf853-65b5-4a3f-92fa-da14ac0bac85",
+        "teamName": "Çaykur Rizespor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "72b272cd-ecd6-424d-a1d8-1d84c7325dea",
+        "teamName": "Fenerbahçe",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "c1d52456-22dc-48fe-82f3-247f1be1a5fb",
+        "teamName": "Galatasaray",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "e3f518b0-d5fc-4a24-9e07-048b0e667820",
+        "teamName": "Göztepe",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "164e5e64-5de1-4f99-97ba-dfe9e155c9b9",
+        "teamName": "Kasimpaşa",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "04a030e7-671d-4774-8c7e-ff09f7c45e05",
+        "teamName": "Kayserispor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "9e235f27-f3df-4ab5-ba0f-d56b883379d9",
+        "teamName": "Konyaspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "cf37f700-1ddb-4a43-bb8d-c7217c3e1cb7",
+        "teamName": "MKE Ankaragücü",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "28dab65c-b084-4f27-b53e-9112489be82a",
+        "teamName": "Sivasspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "7ab46937-c39e-417f-bd05-14e93fe1fcf3",
+        "teamName": "Trabzonspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "539a0821-e2ff-4704-a3b7-3206a1670edd",
+        "teamName": "Yeni Malatyaspor",
+        "country": "TURKEY",
+        "league": "SÜPER LIG"
+    },
+    {
+        "id": "082c1a30-3862-447b-9fc0-20403b049cb3",
+        "teamName": "Atlanta United",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "ecb1c1b5-3b0a-4341-960e-864df299b35c",
+        "teamName": "Chicago Fire",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "106637a1-e6cf-4579-bf48-c4ee7028de15",
+        "teamName": "Colorado Rapids",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "ba729658-6812-4ade-86a2-ee431cbfa032",
+        "teamName": "Columbus Crew SC",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "729478dd-4b24-42d0-8c99-42baee6e8d86",
+        "teamName": "D.C. United",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "f20ba381-cc18-487b-8db7-25a8d80c2dfb",
+        "teamName": "FC Dallas",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "c151776e-c8b6-4087-89ca-e3e9e688ca7b",
+        "teamName": "Houston Dynamo",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "a32d44da-af6b-44af-9e09-ec1cd3e458cd",
+        "teamName": "Impact Montréal",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "f853f6c2-6818-4edc-ae3f-e2480313aafa",
+        "teamName": "LAFC",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "d9fc3af5-234f-43b1-8faa-7b23aca8e65b",
+        "teamName": "LA Galaxy",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "4a513f62-c957-4a41-b05a-975c59eb5626",
+        "teamName": "Minnesota United",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "68363537-950e-4c0c-9d80-2f419ded403b",
+        "teamName": "New England",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "d48ffb21-8a73-45f8-a233-da4e47073dc4",
+        "teamName": "New York City FC",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "53f8e8a1-fa39-493b-9114-65f382d86a7d",
+        "teamName": "NY Red Bulls",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "a0e4ec21-bd28-4c87-b0af-33414f72d55b",
+        "teamName": "Orlando City",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "ca926f4e-19ab-4cd3-a77e-66165142f9d3",
+        "teamName": "Philadelphia",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "ad8be96b-8911-4ee2-9c35-d24c8e6886e1",
+        "teamName": "Portland Timbers",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "de375a2e-5da2-42d0-975d-d588629bf9bb",
+        "teamName": "Real Salt Lake",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "266a8023-9495-4ed7-a3cf-0536812dcd07",
+        "teamName": "Seattle Sounders",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "8031c93b-5149-4a13-8c74-b8b0441e4781",
+        "teamName": "SJ Earthquakes",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "259e625c-fd31-414a-8db8-f69f92e4696b",
+        "teamName": "Sporting KC",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "c96117fb-6874-4059-8ed6-a5272f4aff0e",
+        "teamName": "Toronto FC",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "3c17bdc5-ab26-4b97-a6d8-f16e129d098d",
+        "teamName": "Whitecaps FC",
+        "country": "USA/CANADA",
+        "league": "MLS"
+    },
+    {
+        "id": "7412fc46-7a6a-4576-a514-c5f0da4d1a17",
+        "teamName": "Australia",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "6599a038-78bc-4056-8d26-ab7d719e48c2",
+        "teamName": "Brazil (Generic players)",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "ada6f7eb-56a3-4eef-84a1-fd80eb7b72f6",
+        "teamName": "Canada",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "ca2fd59e-a500-4635-a00b-dd7148f9f0c2",
+        "teamName": "England",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "e5746d24-6217-41a3-9132-f0aaf23ad74e",
+        "teamName": "France",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "7ff482b3-e058-41e6-b735-1e31ea04d660",
+        "teamName": "Germany",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "a6b9074a-daea-444d-a425-05117fb8e3b5",
+        "teamName": "Italy",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "71cdd153-ab15-4708-8de6-cd3506d7d439",
+        "teamName": "Mexico",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "41950f9f-0c76-4b3d-aff4-7e8138b757c3",
+        "teamName": "Netherlands",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "20e41633-e34d-4385-86b1-441c4e591309",
+        "teamName": "New Zealand",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "a87327ac-e72f-445e-8395-cbad1b2d49b8",
+        "teamName": "Norway",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "0d1c4783-5c07-46ec-9282-17c646464683",
+        "teamName": "Spain",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "44b85951-bb05-4e28-84aa-3ee78e7a7e10",
+        "teamName": "Sweden",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    },
+    {
+        "id": "12348e7a-56c0-463f-bfe0-3f4a1fb9c85e",
+        "teamName": "United States",
+        "country": "WOMEN'S NATIONAL",
+        "league": "WOMEN'S NATIONAL"
+    }
+]

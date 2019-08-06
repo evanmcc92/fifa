@@ -1,0 +1,128 @@
+service: fifa-database
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: ${opt:stage, 'dev'}
+  region: us-west-2
+  environment:
+    PLAYERS_TABLE: 'fifa-players'
+    GAMES_TABLE: 'fifa-games'
+    TEAMS_TABLE: 'fifa-teams'
+plugins:
+  - serverless-dynamodb-local
+package:
+  exclude:
+    - .git/**
+resources:
+  Resources:
+    PlayersTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:provider.environment.PLAYERS_TABLE}
+    TeamsTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+          - AttributeName: country
+            AttributeType: S
+          - AttributeName: league
+            AttributeType: S
+          - AttributeName: teamName
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        GlobalSecondaryIndexes:
+        - IndexName: countryIndex
+          KeySchema:
+          - AttributeName: country
+            KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 3
+            WriteCapacityUnits: 3
+        - IndexName: leagueIndex
+          KeySchema:
+          - AttributeName: league
+            KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 3
+            WriteCapacityUnits: 3
+        - IndexName: teamNameIndex
+          KeySchema:
+          - AttributeName: teamName
+            KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 3
+            WriteCapacityUnits: 3
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:provider.environment.TEAMS_TABLE}
+    GamesTable:
+      Type: 'AWS::DynamoDB::Table'
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+          - AttributeName: awayPlayer
+            AttributeType: S
+          - AttributeName: homePlayer
+            AttributeType: S
+        KeySchema:
+          - AttributeName: id
+            KeyType: HASH
+        GlobalSecondaryIndexes:
+        - IndexName: awayPlayerIndex
+          KeySchema:
+          - AttributeName: awayPlayer
+            KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 1
+            WriteCapacityUnits: 1
+        - IndexName: homePlayerIndex
+          KeySchema:
+          - AttributeName: homePlayer
+            KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: 1
+            WriteCapacityUnits: 1
+        ProvisionedThroughput:
+          ReadCapacityUnits: 1
+          WriteCapacityUnits: 1
+        TableName: ${self:provider.environment.GAMES_TABLE}
+custom:
+  dynamodb:
+    stages:
+      - dev
+    start:
+      seed: true
+      migrate: true
+    seed:
+      teams:
+        sources:
+          - table: ${self:provider.environment.TEAMS_TABLE}
+            sources: 
+              - ./seed/data.json
+

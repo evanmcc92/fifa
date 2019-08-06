@@ -1,0 +1,63 @@
+service: fifa-api
+
+provider:
+  name: aws
+  runtime: nodejs8.10
+  stage: ${opt:stage, 'dev'}
+  region: us-west-2
+  apiKeys:
+    - ${self:service}-key
+  environment:
+    PLAYERS_TABLE: 'fifa-players'
+    GAMES_TABLE: 'fifa-games'
+    TEAMS_TABLE: 'fifa-teams'
+    PLAYER_PATH_PREFIX: '/players'
+    GAME_PATH_PREFIX: '/games'
+    TEAM_PATH_PREFIX: '/teams'
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+        - dynamodb:UpdateItem
+        - dynamodb:PutItem
+        - dynamodb:Scan
+        - dynamodb:Query
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.PLAYERS_TABLE}"
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+        - dynamodb:UpdateItem
+        - dynamodb:PutItem
+        - dynamodb:Scan
+        - dynamodb:Query
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.GAMES_TABLE}"
+    - Effect: Allow
+      Action:
+        - dynamodb:Query
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.GAMES_TABLE}/index/*"
+    - Effect: Allow
+      Action:
+        - dynamodb:GetItem
+        - dynamodb:UpdateItem
+        - dynamodb:PutItem
+        - dynamodb:Scan
+        - dynamodb:Query
+      Resource: "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:provider.environment.TEAMS_TABLE}"
+plugins:
+  - serverless-dynamodb-local
+  - serverless-offline
+functions:
+  app:
+    handler: app.handler
+    events:
+    - http:
+        path: '/'
+        method: ANY
+        private: true
+    - http:
+        path: '{proxy+}'
+        method: ANY
+        private: true
+package:
+  exclude:
+    - .git/**

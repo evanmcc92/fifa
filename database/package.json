@@ -1,0 +1,12 @@
+{
+  "name": "fifa-database",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "serverless-dynamodb-client": "0.0.2"
+  },
+  "devDependencies": {
+    "serverless-dynamodb-local": "^0.2.38",
+    "serverless-offline": "^3.16.0"
+  }
+}
