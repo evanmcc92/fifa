@@ -9,7 +9,6 @@ const utils = require('../lib/utils');
 const moment = require('moment');
 const router = express.Router();
 
-const PLAYERS_TABLE = process.env.PLAYERS_TABLE;
 const GAMES_TABLE = process.env.GAMES_TABLE;
 const GAME_PATH_PREFIX = process.env.GAME_PATH_PREFIX;
 
@@ -49,7 +48,7 @@ router.get('/', function(req, res, next){
 });
 
 // add a game
-router.post('/', utils.formHandler, function(req, res, next){
+router.post('/', utils.formHandler, async function(req, res, next){
     let postData = req.postData;
 
     if (!postData) {
@@ -59,48 +58,81 @@ router.post('/', utils.formHandler, function(req, res, next){
         return;
     }
 
-    // required: home player, away player, home team, away team, score
-    let gameId = uuid();
-    let data = {
-        id: gameId,
-        homePlayer: JSON.stringify(_.get(postData, 'homePlayer')), // expects a player object
-        homeTeam: JSON.stringify(_.get(postData, 'homeTeam')),
-        homeTeamScore: _.get(postData, 'homeTeamScore'),
-        homeTeamPK: _.get(postData, 'homeTeamPK'),
-        awayPlayer: JSON.stringify(_.get(postData, 'awayPlayer')), // expects a player object
-        awayTeam: JSON.stringify(_.get(postData, 'awayTeam')),
-        awayTeamScore: _.get(postData, 'awayTeamScore'),
-        awayTeamPK: _.get(postData, 'awayTeamPK'),
-        created_at: moment().format(),
+    // validate players and teams
+    let validateAttr = {
+        'awayPlayer': 'player',
+        'awayTeam': 'team',
+        'homePlayer': 'player',
+        'homeTeam': 'team',
     };
 
-    // check for missing keys
-    let missingKeys = utils.checkObjectValues(data);
-    if (missingKeys.length > 0) {
-        res.status(400).json({
-            error: 'Missing fields data: ' + _.join(missingKeys, ', ')
-        });
-        return;
-    }
+    let validateAttrPromises = [];
+    _.forOwn(validateAttr, function(value, key) {
+        validateAttrPromises.push(utils.validateObjectAttributes(_.get(postData, key), value))
+    });
 
-    let params = {
-        TableName: GAMES_TABLE,
-        Item: data,
-    };
+    await Promise.all(validateAttrPromises).then(function(values){
+        let keys = Object.keys(validateAttr);
+        for (var i = 0; i < values.length; i++) {
+            if (!_.get(values[i], 'Item.id')) {
+                console.error(`This is not a valid ${keys[i]}`);
+                res.status(400).json({
+                    error: 'There was an error adding this game',
+                    message: `The '${keys[i]}' set is invalid. Please try again with a valid '${keys[i]}'.`,
+                });
+                return;
+            }
+        }
+        // required: home player, away player, home team, away team, score
+        let gameId = uuid();
+        let data = {
+            id: gameId,
+            homePlayer: JSON.stringify(_.get(postData, 'homePlayer')), // expects a player object
+            homeTeam: JSON.stringify(_.get(postData, 'homeTeam')),
+            homeTeamScore: _.get(postData, 'homeTeamScore'),
+            homeTeamPK: _.get(postData, 'homeTeamPK'),
+            awayPlayer: JSON.stringify(_.get(postData, 'awayPlayer')), // expects a player object
+            awayTeam: JSON.stringify(_.get(postData, 'awayTeam')),
+            awayTeamScore: _.get(postData, 'awayTeamScore'),
+            awayTeamPK: _.get(postData, 'awayTeamPK'),
+            created_at: moment().format(),
+        };
 
-    dynamodb.doc.put(params, function(error, data) {
-        if (error) {
-            console.error('There was an error adding this game', error);
+        // check for missing keys
+        let missingKeys = utils.checkObjectValues(data);
+        if (missingKeys.length > 0) {
             res.status(400).json({
-                error: 'There was an error adding this game',
-                message: error.message
+                error: 'Missing fields data: ' + _.join(missingKeys, ', ')
             });
             return;
         }
 
-        res.json({
-            message: 'Successfully added game',
-            path: `${GAME_PATH_PREFIX}/${gameId}`
+        let params = {
+            TableName: GAMES_TABLE,
+            Item: data,
+        };
+
+        dynamodb.doc.put(params, function(error, data) {
+            if (error) {
+                console.error('There was an error adding this game', error);
+                res.status(400).json({
+                    error: 'There was an error adding this game',
+                    // message: error.message
+                });
+                return;
+            }
+
+            res.json({
+                message: 'Successfully added game',
+                path: `${GAME_PATH_PREFIX}/${gameId}`
+            });
+            return;
+        });
+    }).catch(function(error){
+        console.error('There was an error when validating the attributes for this game submission', error);
+        res.status(400).json({
+            error: 'There was an error adding this game',
+            message: error.message
         });
         return;
     });
@@ -113,16 +145,7 @@ router.get('/:id', function(req, res, next){
         TableName: GAMES_TABLE,
         Key: {
             id: gameId,
-        },
-        AttributesToGet: [
-            'homeTeamScore',
-            'awayPlayer',
-            'awayTeam',
-            'awayTeamScore',
-            'homeTeam',
-            'id',
-            'homePlayer',
-        ],
+        }
     };
 
     dynamodb.doc.get(params, function(error, data) {
@@ -135,9 +158,12 @@ router.get('/:id', function(req, res, next){
         }
 
         let gamesData = _.get(data, 'Item');
-        if (gamesData.length > 0) {
+        if (_.has(gamesData, 'id')) {
             let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
-            res.json(utils.attrsToObject(fixAttr, gamesData));
+            let out = {
+                game: utils.attrsToObject(fixAttr, gamesData),
+            }
+            res.json(out);
         } else {
             res.json({message: 'This game does not exist.'});
         }

@@ -1,7 +1,12 @@
 'use strict';
 
 const formidable = require('formidable');
+const dynamodb = require('serverless-dynamodb-client');
 const _ = require('lodash');
+
+const PLAYERS_TABLE = process.env.PLAYERS_TABLE;
+const GAMES_TABLE = process.env.GAMES_TABLE;
+const TEAMS_TABLE = process.env.TEAMS_TABLE;
 
 module.exports = {
     checkObjectValues: function(obj) {
@@ -41,5 +46,23 @@ module.exports = {
             });
             return object;
         }
+    },
+    validateObjectAttributes: function(obj, table) {
+        let tableName;
+        if (table === 'player') {
+            tableName = PLAYERS_TABLE;
+        } else if (table === 'game') {
+            tableName = GAMES_TABLE;
+        } else if (table === 'team') {
+            tableName = TEAMS_TABLE;
+        }
+        let params = {
+            TableName: tableName,
+            Key: {
+                id: obj.id,
+            },
+        };
+
+        return dynamodb.doc.get(params).promise();
     }
 };

@@ -3,9 +3,10 @@
 const serverless = require('serverless-http');
 const express = require('express');
 const _ = require('lodash');
-const uuid = require('uuid/v4');
+const uuid = require('uuid/v5');
 const dynamodb = require('serverless-dynamodb-client');
 const utils = require('../lib/utils');
+const moment = require('moment');
 const router = express.Router();
 
 const GAME_PATH_PREFIX = process.env.GAME_PATH_PREFIX;
@@ -71,8 +72,9 @@ router.get('/:id', function(req, res, next){
             });
         }
 
-        let playersData = _.get(data, 'Item');
-        if (playersData.length > 0) {
+        let playersData = [];
+        playersData.push(_.get(data, 'Item'));
+        if (_.find(playersData, 'id')) {
             let out = {
                 count: playersData.length,
                 player: playersData,
@@ -117,7 +119,9 @@ router.get('/:id' + GAME_PATH_PREFIX, async function(req, res, next){
         let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
         games = utils.attrsToObject(fixAttr, games);
         let limit = _.get(req.query, 'limit', games.length);
-        games.length = limit;
+        if (games.length > limit) {
+            games.length = limit;
+        }
         let out = {
             count: games.length,
             games: games
@@ -150,7 +154,7 @@ router.post('/', utils.formHandler, function(req, res, next){
             });
         }
 
-        let playerId = uuid();
+        let playerId = uuid(`${fname} ${lname}`, uuid.DNS);
         let params = {
             TableName: PLAYERS_TABLE,
             Item: {
