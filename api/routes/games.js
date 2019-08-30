@@ -84,7 +84,7 @@ router.post('/', utils.formHandler, async function(req, res, next){
             }
         }
         // required: home player, away player, home team, away team, score
-        let gameId = uuid();
+        let gameId =  _.get(postData, 'id', uuid());
         let data = {
             id: gameId,
             homePlayer: JSON.stringify(_.get(postData, 'homePlayer')), // expects a player object

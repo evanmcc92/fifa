@@ -147,6 +147,7 @@ router.post('/', utils.formHandler, function(req, res, next){
         let fname = _.get(postData, 'fname');
         let lname = _.get(postData, 'lname');
         let favTeam = _.get(postData, 'favTeam');
+        let playerId = _.get(postData, 'id', uuid(`${fname} ${lname}`, uuid.DNS));
 
         if (!fname && !lname) {
             res.status(400).json({
@@ -154,7 +155,6 @@ router.post('/', utils.formHandler, function(req, res, next){
             });
         }
 
-        let playerId = uuid(`${fname} ${lname}`, uuid.DNS);
         let params = {
             TableName: PLAYERS_TABLE,
             Item: {
