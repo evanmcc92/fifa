@@ -1,0 +1,123 @@
+---
+version: "2"
+checks:
+  argument-count:
+    enabled: false
+  complex-logic:
+    enabled: true
+    config:
+      threshold: 4
+  file-lines:
+    enabled: false
+  method-complexity:
+    enabled: true
+    config:
+      threshold: 5
+  method-count:
+    enabled: false
+  method-lines:
+    enabled: false
+  nested-control-flow:
+    enabled: true
+    config:
+      threshold: 4
+  return-statements:
+    enabled: true
+    config:
+      threshold: 4
+  similar-code:
+    enabled: true
+  identical-code:
+    enabled: true
+    config:
+      threshold: 50
+plugins:
+  nodesecurity:
+    enabled: true
+  fixme:
+    enabled: true
+    config:
+      strings:
+      - TODO
+      - todo
+  eslint:
+    enabled: true
+    ignore_warnings: true
+    config: .eslintrc.yaml
+    channel: eslint-7
+  grep:
+    enabled: true
+    config:
+      patterns:
+        getAppConfiguration:
+          pattern: \.getAppConfiguration\(
+          annotation: "Don't use function from xservice-config"
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        getAllAppConfigurationForApp:
+          pattern: \.getAllAppConfigurationForApp\(
+          annotation: "Don't use function from xservice-config"
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        getAllAppConfigurationVersionsForApp:
+          pattern: \.getAllAppConfigurationVersionsForApp\(
+          annotation: "Don't use function from xservice-config"
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        saveAppConfiguration:
+          pattern: \.saveAppConfiguration\(
+          annotation: "Don't use function from xservice-config"
+          severity: major
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        getAllAppDefinitions:
+          pattern: \.getAllAppDefinitions\(
+          annotation: "Don't use function from xservice-config"
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        getAllAppDefinitionsForId:
+          pattern: \.getAllAppDefinitionsForId\(
+          annotation: "Don't use function from xservice-config"
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        getAppDefinition:
+          pattern: \.getAppDefinition\(
+          annotation: "Don't use function from xservice-config"
+          severity: minor
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+        saveAppDefinition:
+          pattern: \.saveAppDefinition\(
+          annotation: "Don't use function from xservice-config"
+          severity: major
+          categories: Security
+          path_patterns:
+            - "**/*.js"
+            - "**/*.ts"
+  # tslint:
+  #   enabled: true
+  #   config: tslint.yaml
+exclude_patterns:
+- .serverless/**
+- node_modules/**
+- app/**
+- database/**
