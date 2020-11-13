@@ -1,199 +1,200 @@
-'use strict';
+'use strict'
 
-const serverless = require('serverless-http');
-const express = require('express');
-const _ = require('lodash');
-const uuid = require('uuid/v4');
-const dynamodb = require('serverless-dynamodb-client');
-const utils = require('../lib/utils');
-const moment = require('moment');
-const router = express.Router();
+const express = require('express')
+const _ = require('lodash')
+const uuid = require('uuid/v4')
+const dynamodb = require('serverless-dynamodb-client')
+const utils = require('../lib/utils')
+const moment = require('moment')
+const router = express.Router()
 
-const GAMES_TABLE = process.env.GAMES_TABLE;
-const GAME_PATH_PREFIX = process.env.GAME_PATH_PREFIX;
+const GAMES_TABLE = process.env.GAMES_TABLE
+const GAME_PATH_PREFIX = process.env.GAME_PATH_PREFIX
 
-// 
+const BAD_REQUEST = 400
+
+//
 // games
-// 
+//
 
 // get all games
-router.get('/', function(req, res, next){
-    let params = {
+router.get('/', (req, res) => {
+    const params = {
         TableName: GAMES_TABLE
-    };
+    }
 
     // TODO: add caching
-    dynamodb.doc.scan(params, function(error, data) {
+    dynamodb.doc.scan(params, (error, data) => {
         if (error) {
-            console.error('There was an error getting the games', error);
-            res.status(400).json({
+            console.error('There was an error getting the games', error)
+            res.status(BAD_REQUEST).json({
                 error: 'There was an error getting the games'
-            });
-            return;
+            })
+            return
         }
 
-        let gamesData = _.get(data, 'Items');
+        const gamesData = _.get(data, 'Items')
         if (gamesData.length > 0) {
-            let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
-            let games = utils.attrsToObject(fixAttr, gamesData);
-            let out = {
+            const fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam']
+            const games = utils.attrsToObject(fixAttr, gamesData)
+            const out = {
                 count: games.length,
                 games: games,
             }
-            res.json(out);
+            res.json(out)
         } else {
-            res.json({message: "There are no games."})
+            res.json({message: 'There are no games.'})
         }
-    });
-});
+    })
+})
 
 // add a game
-router.post('/', utils.formHandler, async function(req, res, next){
-    let postData = req.postData;
+router.post('/', utils.formHandler, async(req, res) => {
+    const postData = req.postData
 
     if (!postData) {
-        res.status(400).json({
+        res.status(BAD_REQUEST).json({
             error: 'Data required'
-        });
-        return;
+        })
+        return
     }
 
     // validate players and teams
-    let validateAttr = {
-        'awayPlayer': 'player',
-        'awayTeam': 'team',
-        'homePlayer': 'player',
-        'homeTeam': 'team',
-    };
+    const validateAttr = {
+        awayPlayer: 'player',
+        awayTeam:   'team',
+        homePlayer: 'player',
+        homeTeam:   'team',
+    }
 
-    let validateAttrPromises = [];
-    _.forOwn(validateAttr, function(value, key) {
+    const validateAttrPromises = []
+    _.forOwn(validateAttr, (value, key) => {
         validateAttrPromises.push(utils.validateObjectAttributes(_.get(postData, key), value))
-    });
+    })
 
-    await Promise.all(validateAttrPromises).then(function(values){
-        let keys = Object.keys(validateAttr);
-        for (var i = 0; i < values.length; i++) {
+    await Promise.all(validateAttrPromises).then(values => {
+        const keys = Object.keys(validateAttr)
+        for(let i = 0; i < values.length; i++) {
             if (!_.get(values[i], 'Item.id')) {
-                console.error(`This is not a valid ${keys[i]}`);
-                res.status(400).json({
-                    error: 'There was an error adding this game',
+                console.error(`This is not a valid ${keys[i]}`)
+                res.status(BAD_REQUEST).json({
+                    error:   'There was an error adding this game',
                     message: `The '${keys[i]}' set is invalid. Please try again with a valid '${keys[i]}'.`,
-                });
-                return;
+                })
+                return
             }
         }
         // required: home player, away player, home team, away team, score
-        let gameId =  _.get(postData, 'id', uuid());
-        let data = {
-            id: gameId,
-            homePlayer: JSON.stringify(_.get(postData, 'homePlayer')), // expects a player object
-            homeTeam: JSON.stringify(_.get(postData, 'homeTeam')),
-            homeTeamScore: _.get(postData, 'homeTeamScore'),
-            homeTeamPK: _.get(postData, 'homeTeamPK'),
-            awayPlayer: JSON.stringify(_.get(postData, 'awayPlayer')), // expects a player object
-            awayTeam: JSON.stringify(_.get(postData, 'awayTeam')),
+        const gameId =  _.get(postData, 'id', uuid())
+        const data = {
+            awayPlayer:    JSON.stringify(_.get(postData, 'awayPlayer')), // expects a player object
+            awayTeam:      JSON.stringify(_.get(postData, 'awayTeam')),
+            awayTeamPK:    _.get(postData, 'awayTeamPK'),
             awayTeamScore: _.get(postData, 'awayTeamScore'),
-            awayTeamPK: _.get(postData, 'awayTeamPK'),
-            created_at: moment().format(),
-        };
-
-        // check for missing keys
-        let missingKeys = utils.checkObjectValues(data);
-        if (missingKeys.length > 0) {
-            res.status(400).json({
-                error: 'Missing fields data: ' + _.join(missingKeys, ', ')
-            });
-            return;
+            created_at:    moment().format(),
+            homePlayer:    JSON.stringify(_.get(postData, 'homePlayer')), // expects a player object
+            homeTeam:      JSON.stringify(_.get(postData, 'homeTeam')),
+            homeTeamPK:    _.get(postData, 'homeTeamPK'),
+            homeTeamScore: _.get(postData, 'homeTeamScore'),
+            id:            gameId,
         }
 
-        let params = {
-            TableName: GAMES_TABLE,
-            Item: data,
-        };
+        // check for missing keys
+        const missingKeys = utils.checkObjectValues(data)
+        if (missingKeys.length > 0) {
+            res.status(BAD_REQUEST).json({
+                error: `Missing fields data: ${_.join(missingKeys, ', ')}`
+            })
+            return
+        }
 
-        dynamodb.doc.put(params, function(error, data) {
+        const params = {
+            Item:      data,
+            TableName: GAMES_TABLE,
+        }
+
+        dynamodb.doc.put(params, error => {
             if (error) {
-                console.error('There was an error adding this game', error);
-                res.status(400).json({
+                console.error('There was an error adding this game', error)
+                res.status(BAD_REQUEST).json({
                     error: 'There was an error adding this game',
                     // message: error.message
-                });
-                return;
+                })
+                return
             }
 
             res.json({
                 message: 'Successfully added game',
-                path: `${GAME_PATH_PREFIX}/${gameId}`
-            });
-            return;
-        });
-    }).catch(function(error){
-        console.error('There was an error when validating the attributes for this game submission', error);
-        res.status(400).json({
-            error: 'There was an error adding this game',
+                path:    `${GAME_PATH_PREFIX}/${gameId}`
+            })
+            return
+        })
+    }).catch(error => {
+        console.error('There was an error when validating the attributes for this game submission', error)
+        res.status(BAD_REQUEST).json({
+            error:   'There was an error adding this game',
             message: error.message
-        });
-        return;
-    });
-});
+        })
+        return
+    })
+})
 
 // get a game by id
-router.get('/:id', function(req, res, next){
-    let gameId = _.get(req.params, 'id');
-    let params = {
-        TableName: GAMES_TABLE,
-        Key: {
-            id: gameId,
-        }
-    };
-
-    dynamodb.doc.get(params, function(error, data) {
-        if (error) {
-            console.error('There was an error getting game ' + gameId, error);
-            res.status(400).json({
-                error: 'There was an error getting game ' + gameId,
-                message: error.message
-            });
-        }
-
-        let gamesData = _.get(data, 'Item');
-        if (_.has(gamesData, 'id')) {
-            let fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam'];
-            let out = {
-                game: utils.attrsToObject(fixAttr, gamesData),
-            }
-            res.json(out);
-        } else {
-            res.json({message: 'This game does not exist.'});
-        }
-    });
-});
-
-// remove a game by id
-router.delete('/:id', function(req, res, next){
-    let gameId = _.get(req.params, 'id');
-
-    let params = {
-        TableName: GAMES_TABLE,
+router.get('/:id', (req, res) => {
+    const gameId = _.get(req.params, 'id')
+    const params = {
         Key: {
             id: gameId,
         },
-    };
+        TableName: GAMES_TABLE,
+    }
 
-    dynamodb.doc.delete(params, function(error, data) {
+    dynamodb.doc.get(params, (error, data) => {
         if (error) {
-            console.error('There was an error deleting game ' + gameId, error);
-            res.status(400).json({
-                error: 'There was an error deleting game ' + gameId,
+            console.error(`There was an error getting game ${gameId}`, error)
+            res.status(BAD_REQUEST).json({
+                error:   `There was an error getting game ${gameId}`,
                 message: error.message
-            });
+            })
+        }
+
+        const gamesData = _.get(data, 'Item')
+        if (_.has(gamesData, 'id')) {
+            const fixAttr = ['awayPlayer', 'awayTeam', 'homePlayer', 'homeTeam']
+            const out = {
+                game: utils.attrsToObject(fixAttr, gamesData),
+            }
+            res.json(out)
+        } else {
+            res.json({message: 'This game does not exist.'})
+        }
+    })
+})
+
+// remove a game by id
+router.delete('/:id', (req, res) => {
+    const gameId = _.get(req.params, 'id')
+
+    const params = {
+        Key: {
+            id: gameId,
+        },
+        TableName: GAMES_TABLE,
+    }
+
+    dynamodb.doc.delete(params, error => {
+        if (error) {
+            console.error(`There was an error deleting game ${gameId}`, error)
+            res.status(BAD_REQUEST).json({
+                error:   `There was an error deleting game ${gameId}`,
+                message: error.message
+            })
         }
 
         res.json({
             message: 'Successfully deleted game'
-        });
-    });
-});
+        })
+    })
+})
 
-module.exports = router;
+module.exports = router

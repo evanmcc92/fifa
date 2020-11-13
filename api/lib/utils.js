@@ -1,68 +1,68 @@
-'use strict';
+'use strict'
 
-const formidable = require('formidable');
-const dynamodb = require('serverless-dynamodb-client');
-const _ = require('lodash');
+const formidable = require('formidable')
+const dynamodb = require('serverless-dynamodb-client')
+const _ = require('lodash')
 
-const PLAYERS_TABLE = process.env.PLAYERS_TABLE;
-const GAMES_TABLE = process.env.GAMES_TABLE;
-const TEAMS_TABLE = process.env.TEAMS_TABLE;
+const PLAYERS_TABLE = process.env.PLAYERS_TABLE
+const GAMES_TABLE = process.env.GAMES_TABLE
+const TEAMS_TABLE = process.env.TEAMS_TABLE
 
 module.exports = {
     checkObjectValues: function(obj) {
-        let missingKeys = [];
-        _.keys(obj).forEach( function(element, index) {
-            if (!_.get(obj, element)) missingKeys.push(element);
-        });
-        return missingKeys;
+        const missingKeys = []
+        _.keys(obj).forEach(function(element, index) {
+            if (!_.get(obj, element)) missingKeys.push(element)
+        })
+        return missingKeys
     },
 
     formHandler: function(req, res, next) {
-        let form = new formidable.IncomingForm();
-        form.once('error', console.error);
-        form.parse(req, function (err, fields, files) {
-            req.postData = fields;
-            next();
-        });
+        const form = new formidable.IncomingForm()
+        form.once('error', console.error)
+        form.parse(req, function(err, fields, files) {
+            req.postData = fields
+            next()
+        })
     },
     toTitleCase: function(text) {
         // https://stackoverflow.com/a/4878800
-        return text.toLowerCase().split(' ').map((s) => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
+        return text.toLowerCase().split(' ').map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' ')
     },
     attrsToObject: function(attrArray, object) {
         // make the following attributes objects
         if (Array.isArray(object)) {
-            let revisedObj = [];
-            object.forEach( function(obj, index) {
-                attrArray.forEach( function(attr, i) {
-                    obj[attr] = JSON.parse(obj[attr]);
-                });
+            const revisedObj = []
+            object.forEach(function(obj, index) {
+                attrArray.forEach(function(attr, i) {
+                    obj[attr] = JSON.parse(obj[attr])
+                })
                 revisedObj.push(obj)
-            });
-            return revisedObj;
-        } else {
-            attrArray.forEach( function(attr, i) {
-                object[attr] = JSON.parse(object[attr]);
-            });
-            return object;
+            })
+            return revisedObj
         }
+        attrArray.forEach(function(attr, i) {
+            object[attr] = JSON.parse(object[attr])
+        })
+        return object
+
     },
     validateObjectAttributes: function(obj, table) {
-        let tableName;
+        let tableName
         if (table === 'player') {
-            tableName = PLAYERS_TABLE;
+            tableName = PLAYERS_TABLE
         } else if (table === 'game') {
-            tableName = GAMES_TABLE;
+            tableName = GAMES_TABLE
         } else if (table === 'team') {
-            tableName = TEAMS_TABLE;
+            tableName = TEAMS_TABLE
         }
-        let params = {
+        const params = {
             TableName: tableName,
-            Key: {
+            Key:       {
                 id: obj.id,
             },
-        };
+        }
 
-        return dynamodb.doc.get(params).promise();
+        return dynamodb.doc.get(params).promise()
     }
-};
+}

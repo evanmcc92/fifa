@@ -1,0 +1,105 @@
+env:
+    commonjs: true
+    es6: true
+    node: true
+extends: 'eslint:recommended'
+globals:
+    Atomics: readonly
+    SharedArrayBuffer: readonly
+parserOptions:
+    ecmaVersion: 2018
+rules:
+    indent: [error, 4, {"SwitchCase": 1}]
+    linebreak-style: [error, unix]
+    quotes: [error, single]
+    semi: [error, never]
+    no-template-curly-in-string: [error]
+    array-callback-return: [error, {allowImplicit: true}]
+    block-scoped-var: [error]
+    curly: [error, multi-line]
+    default-param-last: error
+    max-classes-per-file: error
+    eqeqeq: [warn, smart]
+    dot-notation: error
+    no-else-return: [error, {allowElseIf: false}]
+    no-eq-null: [warn]
+    no-floating-decimal: error
+    no-loop-func: error
+    no-magic-numbers: [error, {ignoreArrayIndexes: true, enforceConst: true, ignore: [0]}]
+    no-multi-spaces: [error, {ignoreEOLComments: false, exceptions: {VariableDeclarator: true}}]
+    no-multi-str: [warn]
+    no-new: error
+    no-new-func: error
+    no-new-wrappers: error
+    no-param-reassign: error
+    no-return-await: error
+    no-self-compare: error
+    no-throw-literal: error
+    no-unmodified-loop-condition: [warn]
+    no-useless-concat: error
+    prefer-promise-reject-errors: error
+    require-await: error
+    yoda: [error, never, {exceptRange: true, onlyEquality: true}]
+    strict: [error, global]
+    no-shadow: error
+    no-undef-init: error
+    no-use-before-define: [error, {functions: false}]
+    callback-return: error
+    handle-callback-err: [error, ^(err|error)$]
+    array-bracket-newline: [error, consistent]
+    array-bracket-spacing: [error, never, {objectsInArrays: false, singleValue: false, arraysInArrays: false}]
+    array-element-newline: [error, consistent]
+    block-spacing: [warn]
+    brace-style: [error, 1tbs, {allowSingleLine: true}]
+    camelcase: error
+    comma-dangle: [error, {arrays: only-multiline, objects: only-multiline, imports: never, exports: never, functions: never}]
+    comma-spacing: error
+    comma-style: [error, last]
+    computed-property-spacing: [error, never]
+    eol-last: [error, always]
+    func-call-spacing: [error, never]
+    func-names: [warn, as-needed]
+    func-style: [error, declaration, {allowArrowFunctions: true}]
+    function-call-argument-newline: [error, consistent]
+    function-paren-newline: [error, consistent]
+    key-spacing: [error, {align: {beforeColon: false, mode: strict, on: value}}]
+    keyword-spacing: [error, {overrides: {function: {after: false}, if: {after: true}, for: {after: false}, catch: {after: false}, while: {after: false}}}]
+    lines-between-class-members: [error, always]
+    no-mixed-operators: error
+    no-multi-assign: error
+    no-negated-condition: error
+    no-nested-ternary: error
+    no-new-object: error
+    no-tabs: error
+    no-trailing-spaces: error
+    no-unneeded-ternary: error
+    no-whitespace-before-property: error
+    nonblock-statement-body-position: [error, beside]
+    object-curly-newline: [error]
+    object-curly-spacing: [error, never, {arraysInObjects: false, objectsInObjects: false}]
+    object-property-newline: error
+    one-var: [error, {initialized: never, uninitialized: always}]
+    operator-linebreak: [error, after]
+    padded-blocks: [error, {classes: always}]
+    quote-props: [error, as-needed]
+    semi-spacing: [error, {before: false, after: true}]
+    semi-style: [error, last]
+    sort-keys: error
+    space-before-blocks: [error, always]
+    space-before-function-paren: [error, never]
+    space-in-parens: [error, never]
+    space-infix-ops: error
+    space-unary-ops: [error, {words: true, nonwords: false}]
+    spaced-comment: [error, always]
+    switch-colon-spacing: error
+    template-tag-spacing: [error, always]
+    arrow-body-style: [error, as-needed]
+    arrow-parens: [error, as-needed]
+    arrow-spacing: error
+    no-confusing-arrow: error
+    no-useless-computed-key: error
+    prefer-const: error
+    prefer-template: error
+    template-curly-spacing: error
+    no-warning-comments: error
+    no-var: error
