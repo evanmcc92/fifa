@@ -75,11 +75,13 @@ router.post('/', utils.formHandler, async(req, res) => {
     await Promise.all(validateAttrPromises).then(values => {
         const keys = Object.keys(validateAttr)
         for(let i = 0; i < values.length; i++) {
-            if (!_.get(values[i], 'Item.id')) {
-                console.error(`This is not a valid ${keys[i]}`)
+            const item = _.get(values, `${i}.Item.id`)
+            const key = keys[i]
+            if (!item) {
+                console.error(`This is not a valid ${key}`)
                 res.status(BAD_REQUEST).json({
                     error:   'There was an error adding this game',
-                    message: `The '${keys[i]}' set is invalid. Please try again with a valid '${keys[i]}'.`,
+                    message: `The '${key}' set is invalid. Please try again with a valid '${key}'.`,
                 })
                 return
             }

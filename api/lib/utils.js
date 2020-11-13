@@ -15,14 +15,14 @@ module.exports = {
             const revisedObj = []
             object.forEach(obj => {
                 attrArray.forEach(attr => {
-                    obj[attr] = JSON.parse(obj[attr])
+                    _.set(obj, attr, JSON.parse(obj[attr]))
                 })
                 revisedObj.push(obj)
             })
             return revisedObj
         }
         attrArray.forEach(attr => {
-            object[attr] = JSON.parse(object[attr])
+            _.set(object, attr, JSON.parse(object[attr]))
         })
         return object
 
