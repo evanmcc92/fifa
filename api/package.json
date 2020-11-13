@@ -5,7 +5,7 @@
   "dependencies": {
     "express": "^4.16.2",
     "formidable": "^1.2.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.20",
     "moment": "^2.24.0",
     "request": "^2.83.0",
     "serverless-dynamodb-client": "0.0.2",
@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "eslint": "^7.13.0",
-    "serverless-dynamodb-local": "^0.2.38",
-    "serverless-offline": "^3.16.0"
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^5.12.1"
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
