@@ -1,0 +1,16 @@
+---
+engines:
+  eslint:
+    enabled: true
+  dublication:
+    enabled: true
+  metric:
+    enabled: true
+  jacksonlinter:
+    enabled: true
+exclude_paths:
+  - '.serverless/**'
+  - 'database/**'
+  - 'data/**'
+  - 'app/**'
+  - '**.json'
