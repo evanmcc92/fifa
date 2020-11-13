@@ -1,6 +1,5 @@
 'use strict'
 
-const serverless = require('serverless-http')
 const express = require('express')
 const _ = require('lodash')
 const dynamodb = require('serverless-dynamodb-client')
@@ -9,12 +8,14 @@ const router = express.Router()
 
 const TEAMS_TABLE = process.env.TEAMS_TABLE
 
+const BAD_REQUEST = 400
+
 //
 // teams
 //
 
 // get all teams
-router.get('/', function(req, res, next) {
+router.get('/', (req, res) => {
     // allowed queries
     const teamName = _.get(req.query, 'teamName')
     const league = _.get(req.query, 'league')
@@ -22,9 +23,9 @@ router.get('/', function(req, res, next) {
     const keyConditionExpression = []
 
     const params = {
-        TableName:                 TEAMS_TABLE,
-        FilterExpression:          '*',
         ExpressionAttributeValues: {},
+        FilterExpression:          '*',
+        TableName:                 TEAMS_TABLE,
     }
 
     if (teamName) {
@@ -51,10 +52,10 @@ router.get('/', function(req, res, next) {
     }
 
     // TODO: add caching
-    dynamodb.doc.scan(params, function(error, data) {
+    dynamodb.doc.scan(params, (error, data) => {
         if (error) {
             console.error('There was an error getting the teams', error)
-            res.status(400).json({
+            res.status(BAD_REQUEST).json({
                 error:   'There was an error getting the teams',
                 message: error.message
             })
@@ -66,19 +67,19 @@ router.get('/', function(req, res, next) {
 })
 
 // get a team by id
-router.get('/:id', function(req, res, next) {
+router.get('/:id', (req, res) => {
     const teamId = _.get(req.params, 'id')
     const params = {
-        TableName: TEAMS_TABLE,
-        Key:       {
+        Key: {
             id: teamId,
         },
+        TableName: TEAMS_TABLE,
     }
 
-    dynamodb.doc.get(params, function(error, data) {
+    dynamodb.doc.get(params, (error, data) => {
         if (error) {
             console.error(`There was an error getting teams ${teamId}`, error)
-            res.status(400).json({
+            res.status(BAD_REQUEST).json({
                 error:   `There was an error getting teams ${teamId}`,
                 message: error.message
             })

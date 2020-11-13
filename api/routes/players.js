@@ -1,6 +1,5 @@
 'use strict'
 
-const serverless = require('serverless-http')
 const express = require('express')
 const _ = require('lodash')
 const uuid = require('uuid/v5')
@@ -14,23 +13,25 @@ const PLAYER_PATH_PREFIX = process.env.PLAYER_PATH_PREFIX
 const PLAYERS_TABLE = process.env.PLAYERS_TABLE
 const GAMES_TABLE = process.env.GAMES_TABLE
 
+const BAD_REQUEST = 400
+
 //
 // players
 // players are the people whose score you may want to track
 //
 
 // get all players
-router.get('/', function(req, res, next) {
+router.get('/', (req, res) => {
     const params = {
         TableName: PLAYERS_TABLE
     }
 
     // TODO: add caching
-    dynamodb.doc.scan(params, function(error, data) {
+    dynamodb.doc.scan(params, (error, data) => {
         if (error) {
-            console.error(`There was an error getting player ${playerId}`, error)
-            res.status(400).json({
-                error:   `There was an error getting player ${playerId}`,
+            console.error('There was an error getting players', error)
+            res.status(BAD_REQUEST).json({
+                error:   'There was an error getting players',
                 message: error.message
             })
         }
@@ -48,25 +49,25 @@ router.get('/', function(req, res, next) {
 })
 
 // get a player by id
-router.get('/:id', function(req, res, next) {
+router.get('/:id', (req, res) => {
     const playerId = _.get(req.params, 'id')
     const params = {
-        TableName: PLAYERS_TABLE,
-        Key:       {
-            id: playerId,
-        },
         AttributesToGet: [
             'id',
             'fname',
             'lname',
             'favTeam',
         ],
+        Key: {
+            id: playerId,
+        },
+        TableName: PLAYERS_TABLE,
     }
 
-    dynamodb.doc.get(params, function(error, data) {
+    dynamodb.doc.get(params, (error, data) => {
         if (error) {
             console.error(`There was an error getting player ${playerId}`, error)
-            res.status(400).json({
+            res.status(BAD_REQUEST).json({
                 error:   `There was an error getting player ${playerId}`,
                 message: error.message
             })
@@ -87,19 +88,19 @@ router.get('/:id', function(req, res, next) {
 })
 
 // get all games for a player
-router.get(`/:id${GAME_PATH_PREFIX}`, async function(req, res, next) {
+router.get(`/:id${GAME_PATH_PREFIX}`, (req, res) => {
     const playerId = _.get(req.params, 'id')
     let games = []
 
     // define params
     const params = {
-        TableName:                 GAMES_TABLE,
-        IndexName:                 '',
-        FilterExpression:          '',
         ExpressionAttributeValues: {
             ':playerId': playerId.trim()
         },
-        Select: 'ALL_ATTRIBUTES',
+        FilterExpression: '',
+        IndexName:        '',
+        Select:           'ALL_ATTRIBUTES',
+        TableName:        GAMES_TABLE,
     }
 
     // set away player params
@@ -112,7 +113,7 @@ router.get(`/:id${GAME_PATH_PREFIX}`, async function(req, res, next) {
     params.FilterExpression = 'contains(homePlayer, :playerId)'
     const homeGamesPromise = dynamodb.doc.scan(params).promise()
 
-    Promise.all([homeGamesPromise, awayGamesPromise]).then(function(values) {
+    Promise.all([homeGamesPromise, awayGamesPromise]).then(values => {
         games = values[0].Items.concat(values[1].Items)
         games = _.orderBy(games, ['created_at'], ['desc']) // sort by most recent games
 
@@ -128,9 +129,9 @@ router.get(`/:id${GAME_PATH_PREFIX}`, async function(req, res, next) {
         }
 
         res.json(out)
-    }).catch(function(error) {
+    }).catch(error => {
         console.error('There was an error getting games for this player', error)
-        res.status(400).json({
+        res.status(BAD_REQUEST).json({
             error:   'There was an error getting games for this player',
             message: error.message
         })
@@ -138,7 +139,7 @@ router.get(`/:id${GAME_PATH_PREFIX}`, async function(req, res, next) {
 })
 
 // add a player
-router.post('/', utils.formHandler, function(req, res, next) {
+router.post('/', utils.formHandler, (req, res) => {
     const postData = req.postData
 
     if (postData) {
@@ -150,26 +151,26 @@ router.post('/', utils.formHandler, function(req, res, next) {
         const playerId = _.get(postData, 'id', uuid(`${fname} ${lname}`, uuid.DNS))
 
         if (!fname && !lname) {
-            res.status(400).json({
+            res.status(BAD_REQUEST).json({
                 error: 'A first and last name is required'
             })
         }
 
         const params = {
-            TableName: PLAYERS_TABLE,
-            Item:      {
-                id:         playerId,
-                fname:      fname,
-                lname:      lname,
+            Item: {
                 favTeam:    favTeam,
+                fname:      fname,
+                id:         playerId,
+                lname:      lname,
                 updated_at: moment().format(),
             },
+            TableName: PLAYERS_TABLE,
         }
 
-        dynamodb.doc.put(params, function(error, data) {
+        dynamodb.doc.put(params, error => {
             if (error) {
                 console.error('There was an error adding this player', error)
-                res.status(400).json({
+                res.status(BAD_REQUEST).json({
                     error:   'There was an error adding this player',
                     message: error.message
                 })
@@ -182,26 +183,26 @@ router.post('/', utils.formHandler, function(req, res, next) {
         })
         return
     }
-    res.status(400).json({
+    res.status(BAD_REQUEST).json({
         error: 'There was an error'
     })
 })
 
 // remove a player by id
-router.delete('/:id', function(req, res, next) {
+router.delete('/:id', (req, res) => {
     const playerId = _.get(req.params, 'id').trim()
 
     const params = {
-        TableName: PLAYERS_TABLE,
-        Key:       {
+        Key: {
             id: playerId,
         },
+        TableName: PLAYERS_TABLE,
     }
 
-    dynamodb.doc.delete(params, function(error, data) {
+    dynamodb.doc.delete(params, error => {
         if (error) {
             console.error(`There was an error deleting player ${playerId}`, error)
-            res.status(400).json({
+            res.status(BAD_REQUEST).json({
                 error:   `There was an error deleting player ${playerId}`,
                 message: error.message
             })

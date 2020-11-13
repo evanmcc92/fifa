@@ -25,7 +25,7 @@ rules:
     no-eq-null: [warn]
     no-floating-decimal: error
     no-loop-func: error
-    no-magic-numbers: [error, {ignoreArrayIndexes: true, enforceConst: true, ignore: [0]}]
+    no-magic-numbers: [error, {ignoreArrayIndexes: true, enforceConst: true, ignore: [0, 1]}]
     no-multi-spaces: [error, {ignoreEOLComments: false, exceptions: {VariableDeclarator: true}}]
     no-multi-str: [warn]
     no-new: error

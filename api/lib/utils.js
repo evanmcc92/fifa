@@ -9,45 +9,46 @@ const GAMES_TABLE = process.env.GAMES_TABLE
 const TEAMS_TABLE = process.env.TEAMS_TABLE
 
 module.exports = {
-    checkObjectValues: function(obj) {
-        const missingKeys = []
-        _.keys(obj).forEach(function(element, index) {
-            if (!_.get(obj, element)) missingKeys.push(element)
-        })
-        return missingKeys
-    },
-
-    formHandler: function(req, res, next) {
-        const form = new formidable.IncomingForm()
-        form.once('error', console.error)
-        form.parse(req, function(err, fields, files) {
-            req.postData = fields
-            next()
-        })
-    },
-    toTitleCase: function(text) {
-        // https://stackoverflow.com/a/4878800
-        return text.toLowerCase().split(' ').map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' ')
-    },
-    attrsToObject: function(attrArray, object) {
+    attrsToObject: (attrArray, object) => {
         // make the following attributes objects
         if (Array.isArray(object)) {
             const revisedObj = []
-            object.forEach(function(obj, index) {
-                attrArray.forEach(function(attr, i) {
+            object.forEach(obj => {
+                attrArray.forEach(attr => {
                     obj[attr] = JSON.parse(obj[attr])
                 })
                 revisedObj.push(obj)
             })
             return revisedObj
         }
-        attrArray.forEach(function(attr, i) {
+        attrArray.forEach(attr => {
             object[attr] = JSON.parse(object[attr])
         })
         return object
 
     },
-    validateObjectAttributes: function(obj, table) {
+    checkObjectValues: obj => {
+        const missingKeys = []
+        _.keys(obj).forEach(element => {
+            if (!_.get(obj, element)) missingKeys.push(element)
+        })
+        return missingKeys
+    },
+    formHandler: (req, res, next) => {
+        const form = new formidable.IncomingForm()
+        form.once('error', console.error)
+        form.parse(req, (err, fields) => {
+            if (err) {
+                console.error(err)
+            }
+            req.postData = fields
+            next()
+        })
+    },
+    toTitleCase: text =>
+        // https://stackoverflow.com/a/4878800
+        text.toLowerCase().split(' ').map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' '),
+    validateObjectAttributes: (obj, table) => {
         let tableName
         if (table === 'player') {
             tableName = PLAYERS_TABLE
@@ -57,10 +58,10 @@ module.exports = {
             tableName = TEAMS_TABLE
         }
         const params = {
-            TableName: tableName,
-            Key:       {
+            Key: {
                 id: obj.id,
             },
+            TableName: tableName,
         }
 
         return dynamodb.doc.get(params).promise()
