@@ -67,5 +67,4 @@ jobs:
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
       with:
-        queries: +security-and-quality,security-extended,octo-org/javascript-qlpack@main
-          
+        queries: +analysis-quality,code-review,compatibility,correctness,correctness-core,correctness-more,dependencies,flow-summaries,frameworks,frameworks-core,frameworks-more,maintainability,maintainability-core,maintainability-more,metrics,metrics-core,metrics-more,quick-wins,readability,readability-core,readability-more,security,security-all,security-extra,javascript-alerts-lgtm,javascript-lgtm,javascript-metrics-lgtm,javascript-util-lgtm
