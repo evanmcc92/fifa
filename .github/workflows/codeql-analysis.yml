@@ -43,7 +43,7 @@ jobs:
       uses: github/codeql-action/init@v1
       with:
         languages: ${{ matrix.language }}
-        queries: +security-extended,security-and-quality,github/codeql/javascript/ql/src/javascript.qll@v1.25.0
+        queries: +security-extended,security-and-quality,github/codeql/javascript/ql/src/@v1.25.0
         # If you wish to specify custom queries, you can do so here or in a config file.
         # By default, queries listed here will override any specified in a config file.
         # Prefix the list here with "+" to use these queries and those in the config file.
