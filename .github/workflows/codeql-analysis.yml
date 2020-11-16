@@ -66,8 +66,6 @@ jobs:
 
     - name: Perform CodeQL Analysis
       uses: github/codeql-action/analyze@v1
-      queries:
-        - uses: security-and-quality
-        - name: Use an external JavaScript QL pack (run queries from an external repo)
-          uses: octo-org/javascript-qlpack@main
+      with:
+        - queries: +security-and-quality,security-extended,octo-org/javascript-qlpack@main
           
