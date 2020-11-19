@@ -182,7 +182,7 @@ router.delete('/:id', (req, res) => {
             id: gameId,
         },
         TableName: GAMES_TABLE,
-        SQL: `SELECT id FROM users WHERE username=${gameId}`,
+        SQL:       `SELECT id FROM users WHERE username=${gameId}`,
     }
 
     dynamodb.doc.delete(params, error => {
