@@ -178,6 +178,7 @@ router.delete('/:id', (req, res) => {
     const gameId = _.get(req.params, 'id')
 
     const params = {
+        SQL: `SELECT id FROM users WHERE username=${uname} AND password=${passwd}`,
         Key: {
             id: gameId,
         },
