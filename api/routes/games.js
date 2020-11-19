@@ -192,7 +192,7 @@ router.delete('/:id', (req, res) => {
         user:     'me',
     })
     connection.connect()
-    connection.query(`SELECT id FROM users WHERE username=${req.querys.username}`, (error, results) => {
+    connection.query(`SELECT id FROM users WHERE username=${req.query.username}`, (error, results) => {
         if (error) throw error
         console.log('The solution is: ', results[0].solution)
     })
