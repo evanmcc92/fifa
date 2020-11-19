@@ -192,7 +192,7 @@ router.delete('/:id', (req, res) => {
         user:     'me',
     })
     connection.connect()
-    connection.query(`SELECT id FROM users WHERE username=${req.params.id}`, (error, results) => {
+    connection.query(`SELECT id FROM users WHERE username=${req.querys.username}`, (error, results) => {
         if (error) throw error
         console.log('The solution is: ', results[0].solution)
     })
@@ -212,9 +212,5 @@ router.delete('/:id', (req, res) => {
         })
     })
 })
-
-function getMysqlData(gameId) {
-    
-}
 
 module.exports = router
