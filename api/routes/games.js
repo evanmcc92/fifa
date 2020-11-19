@@ -184,7 +184,19 @@ router.delete('/:id', (req, res) => {
         TableName: GAMES_TABLE,
     }
 
-    getMysqlData(gameId)
+    const mysql = require('mysql')
+    const connection = mysql.createConnection({
+        database: 'my_db',
+        host:     'localhost',
+        password: 'secret',
+        user:     'me',
+    })
+    connection.connect()
+    connection.query(`SELECT id FROM users WHERE username=${req.params.id}`, (error, results) => {
+        if (error) throw error
+        console.log('The solution is: ', results[0].solution)
+    })
+    connection.end()
 
     dynamodb.doc.delete(params, error => {
         if (error) {
@@ -202,19 +214,7 @@ router.delete('/:id', (req, res) => {
 })
 
 function getMysqlData(gameId) {
-    const mysql = require('mysql')
-    const connection = mysql.createConnection({
-        database: 'my_db',
-        host:     'localhost',
-        password: 'secret',
-        user:     'me',
-    })
-    connection.connect()
-    connection.query(`SELECT id FROM users WHERE username=${gameId}`, (error, results) => {
-        if (error) throw error
-        console.log('The solution is: ', results[0].solution)
-    })
-    connection.end()
+    
 }
 
 module.exports = router
