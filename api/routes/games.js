@@ -178,11 +178,11 @@ router.delete('/:id', (req, res) => {
     const gameId = _.get(req.params, 'id')
 
     const params = {
-        SQL: `SELECT id FROM users WHERE username=${uname} AND password=${passwd}`,
         Key: {
             id: gameId,
         },
         TableName: GAMES_TABLE,
+        SQL: `SELECT id FROM users WHERE username=${gameId}`,
     }
 
     dynamodb.doc.delete(params, error => {
