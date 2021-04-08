@@ -15,7 +15,7 @@
   "devDependencies": {
     "eslint": "^7.23.0",
     "serverless-dynamodb-local": "^0.2.39",
-    "serverless-offline": "^5.12.1"
+    "serverless-offline": "^6.9.0"
   },
   "scripts": {
     "lint": "./node_modules/.bin/eslint .",
