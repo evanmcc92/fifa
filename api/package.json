@@ -4,7 +4,7 @@
   "main": "app.js",
   "dependencies": {
     "express": "^4.16.2",
-    "formidable": "^1.2.1",
+    "formidable": "^1.2.2",
     "lodash": "^4.17.20",
     "moment": "^2.29.1",
     "request": "^2.83.0",
