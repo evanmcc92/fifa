@@ -10,7 +10,7 @@
     "request": "^2.83.0",
     "serverless-dynamodb-client": "0.0.2",
     "serverless-http": "^1.5.2",
-    "uuid": "^3.3.2"
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "eslint": "^7.23.0",
